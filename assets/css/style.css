@@ -59,6 +59,10 @@ img {
 
 
 
+.section {
+    padding: 50px 30px 0px;
+}
+
 
 
 
@@ -154,7 +158,7 @@ header .container img.logo {
     position: relative;
     margin-bottom: 10px;
     padding-bottom: 100px;
-    background-color: #fffaf0;
+    background-color: #fafafa;
      /*background-image: url(https://assets-global.website-files.com/5b5a66e…/5cf9214…_hero-home.jpg); */
     background-position: 50% 0%;
     background-size: 2627px;
@@ -209,6 +213,7 @@ header .container img.logo {
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
+    color: #fff;
 }
 
 .button-fat {
@@ -273,7 +278,7 @@ header .container img.logo {
 .subhead {
     margin-bottom: 24px;
     color: #46586b;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     letter-spacing: 0px;
 }
@@ -286,7 +291,7 @@ header .container img.logo {
     position: relative;
     top: 0px;
     max-width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 40px;
 }
 .clients-bar {
@@ -321,7 +326,7 @@ header .container img.logo {
 .employee-avatar {
     position: relative;
     left: 0px;
-    top: -20px;
+    top: -70px;
     z-index: 2;
     width: 20%;
     height: 336px;
@@ -362,18 +367,18 @@ header .container img.logo {
     right: 0%;
     bottom: auto;
     max-width: 80%;
-    padding: 56px;
+    padding: 60px;
     border-radius: 3px;
-    background-color: #fffaf0;
+    background-color: #fafafa;
     text-align: left;
 }
 
 
 .heading-2-body {
     margin-bottom: 24px;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 38px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .powering-quote-content {
@@ -388,7 +393,7 @@ header .container img.logo {
     padding: 0px 24px 0px 0px;
     border-left-style: none;
     color: #222d38;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 36px;
     font-weight: 500;
 }
@@ -412,9 +417,11 @@ blockquote {
 
 .powering-quote-author {
     color: #585452;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 19px;
     font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .employee-mobile {
@@ -433,20 +440,20 @@ blockquote {
 .powering-key-number {
     margin-bottom: 8px;
     color: #222d38;
-    font-size: 44px;
+    font-size: 32px;
     line-height: 46px;
     font-weight: 700;
 }
 
 .powering-legend {
     color: #585452;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     font-weight: 400;
 }
 
 .cta-block.powering {
-    margin-top: 8px;
+    margin-top: 20px;
 }
 
 .cta-block {
@@ -463,16 +470,16 @@ blockquote {
 .cta-text {
     display: inline-block;
     margin-right: 7px;
-    color: #1fae96;
-    font-size: 15px;
+    color: #e57414;
+    font-size: 14px;
     font-weight: 400;
 }
 
 .cta-text-arrow {
     display: inline-block;
     margin-left: 0px;
-    color: #1fae96;
-    font-size: 15px;
+    color: #e57414;
+    font-size: 14px;
 }
 
 .powering-content {
@@ -606,6 +613,136 @@ blockquote {
 }}
 
 /*------ end of logo section -----*/
+
+
+
+
+/*-------- solution section ---------*/
+
+
+.section-icon {
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+
+.multipurpose-preheader {
+    margin-bottom: 8px;
+    color: #617080;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.heading-2-body {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+
+.video-lightbox.small {
+    display: block;
+    max-width: 770px;
+    margin: 40px auto 0px;
+}
+
+
+.large-video-thumbnail {
+    display: block;
+    width: 100%;
+}
+
+.large-play-button {
+    height: 89px;
+}
+
+
+.video-overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 150;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.showcase {
+    margin-top: 48px;
+}
+
+
+.col-33 {
+    width: 33.333%;
+    min-height: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cell {
+    display: block;
+    margin-bottom: 40px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.grid-icon {
+    height: 35px;
+    margin-bottom: 12px;
+}
+
+.explore-heading {
+    margin-bottom: 6px;
+    color: #1fae96;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+
+.description.home {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+
+.video-lightbox {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 80px;
+    border: 1px solid #e4e9ee;
+    border-radius: 4px;
+    box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);
+}
+
+
+
+
+
 
 
 
