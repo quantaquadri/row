@@ -369,7 +369,7 @@ header .container img.logo {
     max-width: 80%;
     padding: 60px;
     border-radius: 3px;
-    background-color: #fafafa;
+    background-color: #FFF9F0;
     text-align: left;
 }
 
@@ -723,9 +723,9 @@ blockquote {
 }
 
 .explore-heading {
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     color: #253993;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     font-weight: 600;
 }
@@ -748,6 +748,18 @@ blockquote {
     box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);
 }
 
+.tablet-50{
+	padding-bottom: 30px;
+}
+
+
+.ctab {
+    background-color: #fafafa;
+    padding: 30px 30px;
+    color: #000;
+    text-align: center;
+    
+}
 
 
 

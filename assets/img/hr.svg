@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="142" height="142" viewBox="0 0 142 142">
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
   <g id="hr" transform="translate(22 15.781)">
-    <circle id="Ellipse_58" data-name="Ellipse 58" cx="71" cy="71" r="71" transform="translate(-22 -15.781)" fill="#e57414"/>
-    <text id="HR360" transform="translate(-9 32.219)" fill="#fff" font-size="32" font-family="Nunito-Regular, Nunito"><tspan x="8.641" y="31">HR360</tspan></text>
+    <circle id="Ellipse_58" data-name="Ellipse 58" cx="90" cy="90" r="90" transform="translate(-22 -15.781)" fill="#253993"/>
+    <text id="HR360" transform="translate(-5.521 52.064)" fill="#fff" font-size="32" font-family="Nunito-Regular, Nunito"><tspan x="24.296" y="31">HR360</tspan></text>
   </g>
 </svg>
