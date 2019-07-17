@@ -644,6 +644,15 @@ blockquote {
 }
 
 
+.heading-3-body {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+
+
 .video-lightbox.small {
     display: block;
     max-width: 770px;
@@ -715,7 +724,7 @@ blockquote {
 
 .explore-heading {
     margin-bottom: 6px;
-    color: #1fae96;
+    color: #253993;
     font-size: 18px;
     line-height: 26px;
     font-weight: 600;
