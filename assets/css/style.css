@@ -1653,6 +1653,160 @@ h6 {
 
 
 
+/*======== HR360 section =========*/
+
+
+.index #connect {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
+#connect {
+    position: relative;
+}
+
+.pl-5, .px-5 {
+    padding-left: 3rem !important;
+}
+
+.pr-5, .px-5 {
+    padding-right: 3rem !important;
+}
+
+.index #connect h2 {
+    padding-bottom: 38px;
+}
+
+.font-size-35 {
+    font-size: 35px;
+}
+
+.index #connect .on-boarding, .index #connect .engagement, .index #connect .payroll-integration, .index #connect .benefits {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+@media (min-width: 992px){
+.pl-lg-5, .px-lg-5 {
+    padding-left: 3rem !important;
+}}
+
+@media (min-width: 992px){
+.pr-lg-5, .px-lg-5 {
+    padding-right: 3rem !important;
+}}
+
+@media (min-width: 768px){
+.d-md-block {
+    display: block !important;
+}}
+
+
+.h-100 {
+    height: 100% !important;
+}
+
+/*.custom-fade-up.start-animate {
+    animation-delay: 0s;
+}
+
+.custom-fade-up.start-animate {
+    animation: 0.8s ease 0s 1 normal forwards mqn-up-fadeIn;
+    will-change: transform, opacity;
+    animation-fill-mode: both;
+}
+.custom-fade-up.start-animate {
+    opacity: 0;
+}*/
+
+.step-counter {
+    position: absolute;
+    top: 0rem;
+    z-index: -9999;
+    font-size: 72px;
+    font-weight: 600;
+    color: #f5f5f5;
+    left: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.font-size-22 {
+    font-size: 22px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+
+.w-75 {
+    width: 75% !important;
+}
+
+.arrow-forward {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    padding: 10px 0;
+}
+
+.text-dark {
+    color: #212029 !important;
+}
+
+.arrow-forward span {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.border-step2 {
+    position: absolute;
+    float: right;
+    width: 8rem;
+    height: 25rem;
+    top: 9%;
+    right: 7%;
+}
+
+@media (min-width: 992px){
+.d-lg-block {
+    display: block !important;
+}}
+
+
+.border-step3 {
+    position: absolute;
+    top: 50%;
+    width: 13rem;
+    height: 16rem;
+    /*left: -3%;*/
+}
+
+.border-step4 {
+    position: absolute;
+    float: right;
+    width: 8rem;
+    height: 20rem;
+    top: 70%;
+    right: 10%;
+}
+
+/*======== end of HR360 section =========*/
 
 
 
