@@ -1021,7 +1021,7 @@ blockquote {
 .supercolumn-list-item {
     margin-bottom: 8px;
     padding-left: 25px;
-    background-image: url(https://assets-global.website-files.com/5b5a66e9f3166b36708705fa/5b98830ac95f29fc86f353dd_tick.png);
+    background-image: url("tick.png");
     background-position: 0px 6px;
     background-size: auto 10px;
     background-repeat: no-repeat;
