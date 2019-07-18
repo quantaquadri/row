@@ -1728,19 +1728,24 @@ h6 {
     font-size: 72px;
     font-weight: 600;
     color: #f5f5f5;
-    left: 0;
+    /*left: 0;*/
     font-family: 'Nunito', sans-serif;
 }
 
 
 .font-size-22 {
     font-size: 22px;
+    font-weight: 600;
 }
 
 .font-size-18 {
-    font-size: 18px;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
+.custom-padding{
+	margin-top: 50px;
+}
 
 .w-75 {
     width: 75% !important;
@@ -1805,6 +1810,204 @@ h6 {
     top: 70%;
     right: 10%;
 }
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (min-width: 768px){
+.pl-md-5, .px-md-5 {
+    padding-left: 3rem !important;
+}}
+
+@media (min-width: 768px){
+.pr-md-5, .px-md-5 {
+    padding-right: 3rem !important;
+}}
+
+
+.yt{
+	align-content: left;
+}
+
+/*testimonial section */
+
+#testimonial {
+    padding-top: 120px;
+}
+
+#testimonial h1 {
+    padding-bottom: 11px;
+}
+
+
+#testimonial .success-content {
+    padding-top: 76px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#testimonial .carousel-item {
+    padding-bottom: 20px;
+}
+
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+
+.text-dark {
+    color: #212029 !important;
+}
+
+#testimonial h6 {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Franca-Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+    font-weight: normal;
+}
+
+
+.hero .hero-headline {
+    padding-top: 40px;
+    /*color: #6262a0;*/
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+
+.hero .hero-bio {
+    /*color: #ababc7;*/
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 33px;
+}
+
+
+.hero-form {
+    padding: 40px 60px;
+    background: #ffffff;
+    -moz-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.02);
+    -webkit-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.02);
+    box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.02);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.hero-form h6 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.hero-form form label.holder {
+    font-size: 14px;
+    color: #6262a0;
+}
+
+label {
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+
+.hero-form form .form-control {
+    height: 42px;
+    line-height: 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #e6e6f0;
+    background-color: #f7f6ff;
+}
+
+.form-control {
+    color: #a0a0ba;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    height: 60px;
+    border: 1px solid e0e0e0;
+    background: transparent;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.btn--primary {
+    background-color: #f79320;
+    color: #ffffff;
+    border-color: #f79320;
+}
+
+
+.hero-form form .btn {
+    height: 50px;
+    line-height: 50px;
+}
+.btn--block {
+    width: 100%;
+}
+
+
+
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0;
+    /*width: 210px;*/
+    height: 55px;
+    line-height: 55px;
+    letter-spacing: 0.65px;
+}
+
+
 
 /*======== end of HR360 section =========*/
 
