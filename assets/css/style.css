@@ -1037,7 +1037,7 @@ blockquote {
     left: 0px;
     /*right: 0px;*/
     bottom: 0px;
-    margin: 20px 25px 25px;
+    /*margin: 20px 25px 25px;*/
 }
 
 .supercolumn-heading {
@@ -1073,6 +1073,145 @@ blockquote {
 }
 
 
+
+
+/*----- cta -----*/
+
+.section.slight-gray.integrations {
+    overflow: hidden;
+}
+
+
+.section.slight-gray {
+    position: relative;
+    padding-top: 80px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f7fa), to(#fff));
+    background-image: linear-gradient(180deg, #f5f7fa, #fff);
+}
+
+.wave-top {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 50;
+    display: block;
+    width: 100%;
+}
+
+.heading-17 {
+    font-weight: 600;
+}
+
+.subhead.limited {
+    position: relative;
+    z-index: 1;
+    display: block;
+    max-width: 570px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+}
+
+strong {
+    color: #222d38;
+    font-weight: 700;
+}
+
+
+
+.container.centered.more {
+    margin-bottom: 40px;
+}
+
+.container.centered {
+    margin-top: 32px;
+    text-align: center;
+}
+
+
+
+/*---footer*/
+
+.footer {
+    padding: 80px 30px;
+    background-image: url(https://assets-global.website-files.com/5b5a66e…/5b706e4…_footer-cat%402x.png);
+    background-position: 50% 100%;
+    background-size: auto 40px;
+    background-repeat: no-repeat;
+}
+
+
+.footer-column {
+    width: 16.66%;
+    min-height: 15px;
+    float: left;
+}
+
+
+.footer-heading {
+    color: #92a0ad;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #222d38;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+
+.footer-link {
+    display: block;
+    color: #46586b;
+    font-size: 14px;
+    line-height: 37px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.footer-bottom-row {
+    margin-top: 35px;
+    padding-top: 35px;
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+
+.w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+
+.website-credit {
+    float: left;
+}
+
+.social-bar {
+    float: right;
+}
+
+
+.copyright {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
 
 
 
