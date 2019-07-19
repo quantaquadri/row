@@ -156,7 +156,7 @@ header .container img.logo {
 
 .section.hero.home.photography {
     position: relative;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     padding-bottom: 80px;
     background-color: #fafafa;
      /*background-image: url(https://assets-global.website-files.com/5b5a66e…/5cf9214…_hero-home.jpg); */
@@ -1592,19 +1592,6 @@ a.text-cta {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ========================== Media Queries ===================================== */
 
 @media (max-width: 1200px) {
@@ -2044,6 +2031,283 @@ label {
 /*======== end of HR360 section =========*/
 
 
+
+
+/*-------------  About Us CSS -------------*/
+
+
+.about--subnav {
+    padding: 70px 0;
+    background: #777;
+}
+
+
+.product--subnav {
+    margin: auto;
+    text-align: center;
+}
+
+
+.about--subnav .col-icon {
+    line-height: 147px;
+}
+
+
+.broker-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.customers--subnav--item h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #e57414;
+}
+
+.customers--subnav--item h1, .customers--subnav--item h2 {
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+
+.customers--subnav--item p {
+    text-align: left;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 22px;
+}
+
+
+.ourStory h5 {
+    text-transform: uppercase;
+    color: #e57414;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.ourStory .storyText {
+    max-width: 1152px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.padding-top-20px {
+    padding-top: 100px !important;
+}
+
+
+.guide-box {
+    background-color: #fafafa;
+    padding: 40px;
+}
+
+
+.about--features {
+    padding: 0;
+    background: #fafafa;
+}
+
+.about-feature-block:first-of-type {
+    position: relative;
+}
+.about-feature-block {
+    width: 100%;
+}
+
+.about-feature-item {
+    width: 50%;
+    height: 420px;
+    text-align: center;
+    padding: 100px;
+    float: left;
+}
+
+
+.product-row {
+    max-width: 1170px;
+    margin: auto;
+    height: 100%;
+}
+
+.regularBack h4 {
+    color: #123466;
+}
+
+.about-feature-item h4 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.about-feature-item p {
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*.bgPurple, .bgPurple h4, .bgPurple p {
+    color: #fff;
+}
+
+.bgPurple {
+    background: #4e2f5e;
+}
+
+.bgRed {
+    background: #ff5745;
+}
+*/
+
+
+/*.about--press {
+    padding: 0 0 60px;
+    margin-top: -60px;
+}*/
+
+.center {
+    margin: auto;
+    text-align: center!important;
+}
+
+.about-press-row {
+    padding-bottom: 60px;
+    /*color: #e64a19;*/
+}
+
+
+.product-row {
+    max-width: 1170px;
+    margin: auto;
+    height: 100%;
+}
+
+#top-hub .about-icon {
+    height: 75px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about-icon {
+    width: auto;
+    height: 33px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+
+.link-cta, .link-cta:hover {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #123466;
+    border-bottom: 2px solid #e57414;
+    padding-bottom: 2px;
+}
+
+
+
+.explore {
+    background: #fafafa url(https://zenefits.imgix.net/521ce14…/static/out/2e1d0d2….png?auto=format,compress) 100% 100% no-repeat;
+}
+
+
+.about-jobs-cta {
+    height: 420px;
+    background-image: url(https://zenefits.imgix.net/521ce14…/static/out/bee5572….jpg?auto=format,compress);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    /*box-shadow: 5px 5px 35px 3px rgba(43,43,43,.05);*/
+}
+
+
+.jobs--cta {
+    background: transparent;
+    padding: 0 20px 0 100px;
+    color: #fff;
+}
+
+
+.jobs--cta h3, .jobs--cta p {
+    color: #000;
+    padding-bottom: 20px;
+    font-family: Helvetica,serif;
+    text-align: left;
+}
+
+.about-jobs-cta h3 {
+    margin-top: 0;
+}
+
+
+@media (min-width: 992px){
+.button.cta-double-border {
+    transition: all .2s;
+}}
+
+.button.cta-double-border {
+    border: none;
+    background: none;
+    filter: none;
+    position: relative;
+    padding: 13px 23px;
+}
+
+
+.button.cta-double-border:after, .button.cta-double-border:before {
+    transition: all .2s;
+    content: "";
+    border: 1px solid #fff;
+    display: block;
+    position: absolute;
+}
+.button.cta-double-border:before {
+    left: -3px;
+    right: 3px;
+    top: 3px;
+    bottom: -3px;
+}
+
+.button.cta-double-border:after {
+    left: 3px;
+    right: -3px;
+    top: -3px;
+    bottom: 3px;
+}
+
+
+
+
+
+/*-------------  end of About Us CSS -------------*/
 
 
 
