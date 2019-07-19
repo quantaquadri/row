@@ -745,7 +745,7 @@ blockquote {
     margin-top: 80px;
     border: 1px solid #e4e9ee;
     border-radius: 4px;
-    box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);
+    /*box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);*/
 }
 
 .tablet-50{
@@ -2038,7 +2038,7 @@ label {
 
 .about--subnav {
     padding: 70px 0;
-    background: #777;
+    background: #cacaca;
 }
 
 
@@ -2064,7 +2064,7 @@ label {
     font-size: 60px;
     font-weight: 600;
     line-height: 64px;
-    color: #e57414;
+    color: #fff;
 }
 
 .customers--subnav--item h1, .customers--subnav--item h2 {
@@ -2142,7 +2142,7 @@ label {
 }
 
 .regularBack h4 {
-    color: #123466;
+    color: #000;
 }
 
 .about-feature-item h4 {
@@ -2251,7 +2251,7 @@ hr {
 
 .jobs--cta {
     background: transparent;
-    padding: 0 20px 0 100px;
+    /*padding: 0 20px 0 100px;*/
     color: #fff;
 }
 
@@ -2259,7 +2259,7 @@ hr {
 .jobs--cta h3, .jobs--cta p {
     color: #000;
     padding-bottom: 20px;
-    font-family: Helvetica,serif;
+    font-family: 'Nunito', sans-serif;
     text-align: left;
 }
 
