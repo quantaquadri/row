@@ -2304,13 +2304,144 @@ hr {
 }
 
 
-
-
-
 /*-------------  end of About Us CSS -------------*/
 
 
 
+
+
+/*-------------  Customers CSS -------------*/
+
+.text-mint {
+    color: #e57414 !important;
+}
+
+.text-mill {
+	font-size: 3.5em;
+}
+
+
+.cust-story .cust-story__img a .overlay {
+   /* background: transparent;
+    background: -webkit-gradient(left top, left bottom, color-stop(59%, transparent), color-stop(81%, rgba(0,0,0,0.21)), color-stop(100%, rgba(0,0,0,0.4)));
+    background: -webkit-linear-gradient(top, transparent 59%, rgba(0,0,0,0.21) 81%, rgba(0,0,0,0.4) 100%);
+    background: linear-gradient(to bottom, transparent 59%, rgba(0,0,0,0.21) 81%, rgba(0,0,0,0.4) 100%);*/
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+    display: block;
+    height: 270px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.cust-story .cust-story__img {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+}
+
+
+.cust-story .cust-story__img a .img.student-loan-hero {
+    background-image: url(tr1.png);
+    background-size: cover auto;
+    background-size: cover;
+}
+.cust-story .cust-story__img a .img {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: 270px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+
+.cust-story .cust-story__img a .cust-story__img__text h6 {
+    /*text-shadow: 0px 2px 4px rgba(0,0,0,0.35);*/
+    color: #000;
+    display: inline-block;
+}
+
+
+.cust-story .cust-story__img a .cust-story__img__text h6:last-of-type {
+    margin-left: 20px;
+}
+
+
+@media (min-width: 768px){
+.cust-story .cust-story__text {
+    padding: 50px 30px;
+    text-align: left;
+}}
+
+.cust-story .cust-story__text {
+    border: 1px solid #f6f6f6;
+    padding: 20px 20px;
+}
+
+
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+
+
+@media (min-width: 768px){
+.cust-story .cust-story__text .cust-story__logo {
+    border-right: 1px solid #e1e1e3;
+}}
+
+.cust-story .cust-story__text .cust-story__logo {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.cust-story .cust-story__text a {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.cust-story {
+    margin-top: 30px;
+}
+
+.cust-story .cust-story__img a .cust-story__img__text {
+    bottom: 10px;
+    position: absolute;
+    left: 20px;
+    z-index: 3;
+}
+
+.cust-story .cust-story__text q {
+    font-family: inherit;
+    font-size: 0.85em;
+}
+
+
+a.text-cta {
+    font-weight: 600;
+    font-size: 12px;
+    left: 0;
+    position: relative;
+    text-decoration: none;
+}
+
+#customer-story-overview{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/*-------------  End of Customers CSS -------------*/
 
 
 
