@@ -2462,7 +2462,7 @@ section.hero {
     color: #000;
     overflow: hidden;
     padding-top: 70px;
-    text-align: center;
+    /*text-align: center;*/
     position: relative;
 }
 
