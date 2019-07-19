@@ -1323,6 +1323,155 @@ ul {
 }
 
 
+.padding-bottom-md-90px {
+    padding-bottom: 90px !important;
+}
+
+.padding-bottom-md-100px {
+    padding-bottom: 100px !important;
+}
+
+.concierge-carousel .slide-wrapper {
+    padding: 40px;
+}
+
+.concierge-carousel .slide-wrapper {
+    padding: 20px;
+    border: 1px solid #e57414;
+}
+
+.concierge-carousel .slide-wrapper p {
+    color: #a5a6ac;
+}
+
+.concierge-carousel .slide-wrapper ol.carousel-indicators {
+    bottom: -105px;
+    display: block;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.concierge-carousel .slide-wrapper .carousel-indicators li {
+    height: 3px;
+    margin: 0;
+    border: none;
+    background-color: #ededee;
+    border-radius: 0;
+    left: 0;
+    width: 45px;
+
+}
+
+
+.concierge-carousel .slide-wrapper .carousel-indicators li.active {
+    width: 45px;
+    height: 3px;
+    background-color: #e57414;
+}
+
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner>.item {
+    display: none;
+    position: relative;
+    -webkit-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+}
+
+
+.text-center img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.concierge-carousel .slide-wrapper .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+ .concierge-carousel .slide-wrapper .carousel-inner .active, .concierge .concierge-carousel .slide-wrapper .carousel-inner .next.left, .concierge .concierge-carousel .slide-wrapper .carousel-inner .prev.right {
+    opacity: 1;
+}
+.concierge-carousel .slide-wrapper .carousel-inner .item, .concierge .concierge-carousel .slide-wrapper .carousel-inner .active.left, .concierge .concierge-carousel .slide-wrapper .carousel-inner .active.right {
+    opacity: 0;
+}
+
+.bg-salt-50 {
+    background-color: #fafafa !important;
+}
+
+.info-sheet-cta img {
+    position: absolute;
+    margin-top: -54px;
+    width: 210px;
+}
+
+.margin-top-none {
+    margin-top: 0 !important;
+}
+
+.text-right-md {
+    text-align: right !important;
+}
+
+.padding-top-10px {
+    padding-top: 10px !important;
+}
+
+ .info-sheet-cta .btn {
+    text-align: right;
+}
+
+ .info-sheet-cta .btn {
+    border: 1px solid #ededee;
+}
+
+
+.btn.btn-white {
+    color: #11b0a5;
+    background: #ffffff;
+    border: 1px solid #ededee;
+}
+
+.row:after {
+    clear: both;
+}
+
+.padding-bottom-none {
+    padding-bottom: 0 !important;
+}
+
+.padding-md-40px {
+    padding: 40px !important;
+}
+
+
 /*----end of HRO CSS*/
 
 
