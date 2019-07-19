@@ -157,7 +157,7 @@ header .container img.logo {
 .section.hero.home.photography {
     position: relative;
     margin-bottom: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     background-color: #fafafa;
      /*background-image: url(https://assets-global.website-files.com/5b5a66e…/5cf9214…_hero-home.jpg); */
     background-position: 50% 0%;
@@ -166,7 +166,7 @@ header .container img.logo {
 }
 
 .section.hero.home {
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 0px;
     background-image: none;
 }
@@ -1221,13 +1221,14 @@ h5 {
 /*----HRO CSS*/
 
 .concierge {
-	color: #4f5057;
+	color: #000;
     font-weight: 600;
     font-size: 28px;
+    line-height: 40px;
 }
 
 .concierge-heavy{
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 }
 
@@ -1245,7 +1246,8 @@ h5 {
 }
 
 .text-large {
-    font-size: 1em !important;
+    font-size: 0.92em !important;
+    line-height: 24px;
 }
 
 .value-props{
@@ -1308,9 +1310,9 @@ ul {
     color: #e57414;
 }
 
-.text-weight-semibold {
+/*.text-weight-semibold {
     font-weight: 700 !important;
-}
+}*/
 
 .text-small {
     font-size: 0.8em !important;
@@ -1913,7 +1915,7 @@ a.text-cta {
 
 
 .hero .hero-headline {
-    padding-top: 40px;
+    padding-top: 7px;
     /*color: #6262a0;*/
     font-size: 42px;
     font-weight: 600;
