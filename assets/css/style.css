@@ -2492,12 +2492,181 @@ section.hero {
 
 
 #customer-story-intro .cust-story__bio {
-    background: #f8f8f8;
+    background: #fafafa;
     padding: 20px;
 }
 
 
+#customer-story-intro .cust-story__bio table td {
+    border: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
 
+table tr td {
+    border-bottom: 1px solid #ededee;
+    padding: 13px 10px;
+}
+
+#customer-story-intro .cust-story__bio table td:last-of-type {
+    padding-left: 15px;
+}
+
+ul.list-bulleted>li {
+    padding-left: 1em;
+    position: relative;
+    font-size: 16px;
+}
+
+ul.list-bulleted.list-bulleted-grey>li::before {
+    color: #c3c4c7;
+}
+ul.list-bulleted>li::before {
+    font-family: 'FontAwesome';
+    content: "";
+    color: #1ec4b4;
+    font-size: 5px;
+    left: 0;
+    line-height: 2.1em;
+    position: absolute;
+    top: 1.25em;
+}
+
+#customer-story-intro .cust-story__bio table.cust-story__bio__blurb {
+    border-top: 1px solid #ededee;
+    width: 100%;
+}
+
+
+@media (min-width: 992px){
+#customer-story-intro .cust-story__text {
+    padding-left: 30px;
+}}
+
+
+#customer-story-intro h4 {
+    color: #696b74;
+}
+
+p+p {
+    margin-top: 1em;
+}
+
+
+#customer-story-intro .cust-story__text .cust-story-quote {
+    text-align: center;
+}
+
+#customer-story-intro .cust-story-quote {
+    padding: 30px 0;
+}
+
+#customer-story-intro .cust-story-quote::before {
+    margin: 0 auto 25px;
+}
+
+#customer-story-intro .cust-story-quote::after, #customer-story-intro .cust-story-quote::before {
+    border-radius: 1px;
+    content: '';
+    display: block;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    background-color: #e1e1e3;
+    height: 1px;
+    width: 60%;
+}
+
+@media (min-width: 768px){
+q.pull-quote {
+    font-size: 1.953em;
+    padding: 20px 20px 30px;
+}}
+
+q.pull-quote:before, q.pull-quote:after {
+    content: '';
+}
+
+q.pull-quote {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #e57414;
+    display: block;
+    line-height: 1.4em;
+    font-size: 1.5em;
+    padding: 10px 10px 20px;
+}
+
+#customer-story-intro .cust-story-quote::after {
+    margin: 25px auto 0;
+}
+
+
+.padding-bottom-30px {
+    padding-bottom: 30px !important;
+}
+
+.padding-top-30px {
+    padding-top: 30px !important;
+}
+
+.student-loan-hero-image-1 {
+    background-image: url(tr1.png);
+    background-size: cover auto;
+    background-position: top right 20%;
+    background-size: cover;
+    height: 260px;
+}
+
+.student-loan-hero-image-2 {
+    background-image: url(tr1.png);
+    background-size: cover auto;
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+}
+
+
+.student-loan-hero-image-3 {
+    background-image: url(tr1.png);
+    background-size: cover auto;
+    background-position: center bottom;
+    background-size: cover;
+    height: 260px;
+}
+
+.student-loan-hero-image-4 {
+    background-image: url(tr1.png);
+    background-size: cover auto;
+    background-position: center bottom;
+    background-size: cover;
+    height: 260px;
+}
+
+.student-loan-hero-image-5 {
+    background-image: url(tr1.png);
+    background-size: cover auto;
+    background-position: center bottom;
+    background-size: cover;
+    height: 260px;
+}
+
+.student-loan-hero-image-6 {
+    background-image: url(tr1.png);
+    background-size: cover auto;
+    background-position: center bottom;
+    background-size: cover;
+    height: 260px;
+}
+
+.fonsy{
+
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 20px;
+
+}
 /*-------------  End of Customers CSS -------------*/
 
 
