@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
   <g id="bookaid" transform="translate(22 15.781)">
-    <circle id="Ellipse_58" data-name="Ellipse 58" cx="90" cy="90" r="90" transform="translate(-22 -15.781)" fill="#e57414"/>
-    <text id="BookAid-2" data-name="BookAid" transform="translate(-14.394 51.064)" fill="#fff" font-size="32" font-family="Nunito-Regular, Nunito"><tspan x="21.276" y="31">BookAid</tspan></text>
+    <circle id="Ellipse_58" data-name="Ellipse 58" cx="90" cy="90" r="90" transform="translate(-22 -15.781)" fill="#f79320"/>
+    <text id="BookAid-2" data-name="BookAid" transform="translate(-14.394 51.064)" fill="#fff" font-size="32" font-family="Nunito-Medium, Nunito" font-weight="500"><tspan x="20.534" y="31">BookAid</tspan></text>
   </g>
 </svg>
