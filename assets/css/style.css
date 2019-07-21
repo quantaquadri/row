@@ -1166,7 +1166,8 @@ strong {
 
 .concierge-heavy{
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 500;
+	color: #000;
 }
 
 .padding-bottom-45px {
@@ -1452,9 +1453,9 @@ ul.list-checkmark>li::before {
     left: 3px;
     top: 3px;
     width: 7px;
-    border-bottom: 2px solid #1ec4b4;
+    border-bottom: 2px solid #e57414;
     height: 12px;
-    border-right: 2px solid #1ec4b4;
+    border-right: 2px solid #e57414;
     transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -1839,7 +1840,7 @@ a.text-cta {
 
 
 .hero .hero-headline {
-    padding-top: 7px;
+    padding-top: 30px;
     /*color: #6262a0;*/
     font-size: 42px;
     font-weight: 600;
@@ -1861,9 +1862,9 @@ a.text-cta {
 .hero-form {
     padding: 40px 60px;
     background: #ffffff;
-    -moz-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.02);
-    -webkit-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.02);
-    box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.02);
+    -moz-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.05);
+    -webkit-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.05);
+    box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.05);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
@@ -1871,11 +1872,11 @@ a.text-cta {
 }
 
 .hero-form h6 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1;
-    margin-bottom: 50px;
-    text-align: center;
+    margin-bottom: 30px;
+    /*text-align: center;*/
     text-transform: capitalize;
     color: #000;
 }
@@ -2033,7 +2034,7 @@ label {
 
 .time-tools__content h3 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 25px;
 }
 
@@ -2045,7 +2046,7 @@ label {
 
 
 .bottom-signup__secondary {
-    background: #fafafa;
+    background: #FFFCF8;
     position: relative;
     text-align: left;
     z-index: 1;
@@ -2053,7 +2054,7 @@ label {
 
 
 .bottom-signup__secondary .col:first-child {
-    border-right: 1px dashed #a5a6ac;
+    border-right: 1px dashed #c7c7c7;
 }
 
 .bottom-signup__secondary .col {
@@ -2073,7 +2074,7 @@ label {
 
 .bottom-signup__secondary h2 {
     color: #000;
-    font-size: 32px !important;
+    font-size: 28px !important;
     font-weight: 600;
 }
 
@@ -2081,11 +2082,12 @@ label {
     color: #000;
     font-size: 24px !important;
     font-weight: 600;
+    line-height: 32px;
 }
 
 
 .bottom-signup__secondary p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 @media (min-width: 992px){
@@ -2155,14 +2157,14 @@ span.span-inline-block-sm {
 
 
 p.text-cta {
-    font-weight: 700;
+    font-weight: 500;
     left: 0;
     position: relative;
     text-decoration: none;
     margin-bottom: 0;
 }
 .card__article__link {
-    color: #5099de;
+    color: #e57414;
     font-size: 14px;
     padding-bottom: 20px;
     padding-left: 15px;
