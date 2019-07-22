@@ -168,6 +168,30 @@ header .container img.logo {
     background-repeat: no-repeat;
 }
 
+.section.hero.home.hr360 {
+    position: relative;
+    /* margin-bottom: 10px; */
+    padding-bottom: 100px;
+    /*background-color: #FFE7BD;*/
+    background-image: url(bgthree.png);
+    background-position: 50% 50%;
+    background-size: 1500px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+
+.hero .hero-headline {
+    padding-top: 10px;
+     color: #000; 
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+
+
 .section.hero.home {
     padding-top: 70px;
     padding-bottom: 0px;
@@ -472,7 +496,7 @@ blockquote {
 
 .powering-key-number {
     margin-bottom: 8px;
-    color: #222d38;
+    color: #000;
     font-size: 32px;
     line-height: 46px;
     font-weight: 700;
@@ -778,7 +802,7 @@ blockquote {
     margin-top: 80px;
     border: 1px solid #e4e9ee;
     border-radius: 4px;
-    /*box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);*/
+    box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);
 }
 
 .tablet-50{
@@ -797,8 +821,8 @@ blockquote {
     padding: 40px 40px;
     color: #000;
     text-align: center;
-    margin-top: 70px;
-    /*box-shadow: 0 25px 30px -14px rgba(158, 117, 95, 0.28);*/
+    /*margin-top: 70px;*/
+    box-shadow: 0 25px 30px -14px rgba(158, 117, 95, 0.15);
     /*border: 1px solid #FFE7BD;    */
 }
 
@@ -982,7 +1006,7 @@ blockquote {
 /*-----------blog -------*/
 
 .container.centered.experts {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 
@@ -1120,8 +1144,8 @@ blockquote {
 .section.slight-gray {
     position: relative;
     padding-top: 80px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#fff));
-    background-image: linear-gradient(180deg, #fafafa, #fff);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#fff));
+    background-image: linear-gradient(180deg, #fcfcfc, #fff);
 }
 
 .wave-top {
@@ -1179,7 +1203,7 @@ strong {
 }
 
 .concierge-heavy{
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #000;
 }
@@ -1855,7 +1879,7 @@ a.text-cta {
 
 .hero .hero-headline {
     padding-top: 10px;
-    /*color: #6262a0;*/
+    color: #fff;
     font-size: 42px;
     font-weight: 600;
     line-height: 60px;
@@ -1864,7 +1888,7 @@ a.text-cta {
 
 
 .hero .hero-bio {
-    /*color: #ababc7;*/
+    color: #fff;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -1876,9 +1900,9 @@ a.text-cta {
 .hero-form {
     padding: 40px 60px;
     background: #ffffff;
-    -moz-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.05);
-    -webkit-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.05);
-    box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.05);
+    -moz-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.08);
+    -webkit-box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.08);
+    box-shadow: 0 10px 40px 0 rgba(32, 62, 84, 0.08);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
