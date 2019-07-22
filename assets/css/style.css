@@ -161,9 +161,11 @@ header .container img.logo {
     padding-bottom: 100px;
     background-color: #FFE7BD;
      /*background-image: url(im-one.png); #FFF9F0*/
-    background-position: 50% 0%;
-    background-size: 2627px;
+     background-image: url(bgtwo.png);
+    background-position: 50% 50%;
+    background-size: 1500px;
     background-attachment: scroll;
+    background-repeat: no-repeat;
 }
 
 .section.hero.home {
@@ -199,15 +201,26 @@ header .container img.logo {
     font-size: 36px;
     line-height: 50px;
     font-weight: 600;
+    color: #fff;
 }
 
 .subhead.mobile.home {
     margin-bottom: 30px;
-    color: #222d38;
+    color: #fff;
     line-height: 32px;
     font-weight: 400;
     font-size: 16px;
 }
+
+
+.subhead.pc.home {
+    margin-bottom: 30px;
+    color: #000;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 .button-fat.home {
     padding: 12px 28px;
@@ -490,7 +503,7 @@ blockquote {
 .cta-text {
     display: inline-block;
     margin-right: 7px;
-    color: #e57414;
+    color: #f79320;
     font-size: 14px;
     font-weight: 400;
 }
@@ -744,8 +757,8 @@ blockquote {
 
 .explore-heading {
     margin-bottom: 10px;
-    color: #000;
-    font-size: 15px;
+    color: #f79320;
+    font-size: 14px;
     line-height: 26px;
     font-weight: 600;
 }
@@ -837,6 +850,7 @@ blockquote {
     font-size: 32px;
     line-height: 38px;
     font-weight: 400;
+    color: #6262A0
 }
 
 .centerd {
@@ -883,7 +897,7 @@ blockquote {
 }
 
 .company-testimonial.w--current {
-    border-bottom-color: #e57414;
+    border-bottom-color: #F79320;
     background-color: #fff;
     opacity: 1;
 }
@@ -1106,8 +1120,8 @@ blockquote {
 .section.slight-gray {
     position: relative;
     padding-top: 80px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#fff));
-    background-image: linear-gradient(180deg, #fcfcfc, #fff);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#fff));
+    background-image: linear-gradient(180deg, #fafafa, #fff);
 }
 
 .wave-top {
@@ -1245,7 +1259,7 @@ ul {
 }
 
 .compliance .warnings li span {
-    color: #e57414;
+    color: #F79320;
 }
 
 /*.text-weight-semibold {
@@ -1277,7 +1291,7 @@ ul {
 
 .concierge-carousel .slide-wrapper {
     padding: 20px;
-    border: 1px solid #e57414;
+    border: 1px solid #F79320;
 }
 
 .concierge-carousel .slide-wrapper p {
@@ -1369,9 +1383,9 @@ ul {
  .concierge-carousel .slide-wrapper .carousel-inner .active, .concierge .concierge-carousel .slide-wrapper .carousel-inner .next.left, .concierge .concierge-carousel .slide-wrapper .carousel-inner .prev.right {
     opacity: 1;
 }
-.concierge-carousel .slide-wrapper .carousel-inner .item, .concierge .concierge-carousel .slide-wrapper .carousel-inner .active.left, .concierge .concierge-carousel .slide-wrapper .carousel-inner .active.right {
+/*.concierge-carousel .slide-wrapper .carousel-inner .item, .concierge .concierge-carousel .slide-wrapper .carousel-inner .active.left, .concierge .concierge-carousel .slide-wrapper .carousel-inner .active.right {
     opacity: 0;
-}
+}*/
 
 .bg-salt-50 {
     background-color: #fafafa !important;
@@ -1878,12 +1892,12 @@ a.text-cta {
     margin-bottom: 30px;
     /*text-align: center;*/
     text-transform: capitalize;
-    color: #000;
+    color: #F79320;
 }
 
 .hero-form form label.holder {
     font-size: 14px;
-    color: #6262a0;
+    color: #000;
 }
 
 label {
@@ -2127,7 +2141,7 @@ span.span-inline-block-sm {
 .card__article {
     cursor: pointer;
     margin-bottom: 25px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.11);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.08);
     -webkit-transition: all 125ms ease-in-out;
     transition: all 125ms ease-in-out;
 }
@@ -2480,7 +2494,7 @@ hr {
 /*-------------  Customers CSS -------------*/
 
 .text-mint {
-    color: #e57414 !important;
+    color: #F79320 !important;
 }
 
 .text-mill {
@@ -2758,7 +2772,7 @@ q.pull-quote:before, q.pull-quote:after {
 q.pull-quote {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #e57414;
+    color: #F79320;
     display: block;
     line-height: 1.4em;
     font-size: 1.5em;
