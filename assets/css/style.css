@@ -185,8 +185,8 @@ header .container img.logo {
     position: relative;
     /* margin-bottom: 10px; */
     padding-bottom: 100px;
-    /*background-color: #FFE7BD;*/
-    background-image: url(bgfour.png);
+    background-color: #fff;
+    /*background-image: url(bgfour.png);*/
     background-position: 50% 50%;
     background-size: 1500px;
     background-attachment: scroll;
@@ -1327,7 +1327,7 @@ strong {
 }
 
 .compliance {
-    background: #fafafa;
+    background: #fff;
      padding-bottom: 100px;
     padding-top: 80px;
 }
@@ -1361,6 +1361,10 @@ ul {
 
 .bg-white {
     background-color: #ffffff !important;
+}
+
+.bg-gray {
+    background-color: #fdfdfd !important;
 }
 
 .border-radius-3px {
@@ -2405,6 +2409,10 @@ p.text-cta.arrow::after {
     padding-top: 100px !important;
 }
 
+.padding-tops-20px {
+    padding-top: 20px !important;
+}
+
 
 .guide-box {
     background-color: #FFFCF8;
@@ -3107,8 +3115,8 @@ footer#footer section .footer-main-links .about ul.social-links li, footer#foote
 .description.home.extended{
 	padding: 18px;
 	color: #fff;
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 
@@ -3320,8 +3328,26 @@ input.w-button {
 }
 
 
+/*========================== HRO =========================*/
+.bg-parsnip-200 {
+    background-color: #FFFCF8 !important;
+}
 
 
+.padding-bottom-45px {
+    padding-bottom: 45px !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+@media (min-width: 768px){
+.offset-md-3 {
+    margin-left: 25%;
+}}
+
+/*========================== end of HRO =========================*/
 
 
 
