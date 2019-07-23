@@ -3440,11 +3440,14 @@ i.checkmark-kale {
 .absolute {
     position: absolute;
 }
-.c-white {
-    color: #ffffff;
+
+.padding-left-5px {
+    padding-left: 5px !important;
 }
 
-/*========================== end of HRO =========================*/
+
+
+/*======================== end of HRO =========================*/
 
 
 
