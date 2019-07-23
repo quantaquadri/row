@@ -3347,6 +3347,103 @@ input.w-button {
     margin-left: 25%;
 }}
 
+.margin-bottom-15px {
+    margin-bottom: 15px !important;
+}
+
+.c-guava-500 {
+    color: #f45d48 !important;
+}
+
+@media (min-width: 1200px){
+.h2 {
+    font-size: 49px;
+    font-size: 4.9rem;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.285px;
+}}
+
+
+@media (min-width: 768px){
+.margin-bottom-md-45px {
+    margin-bottom: 45px !important;
+}}
+
+.margin-bottom-20px {
+    margin-bottom: 20px !important;
+}
+
+.padding-left-25px {
+    padding-left: 25px !important;
+}
+
+
+.small-group-checklist .width-50 {
+    width: 50%;
+}
+
+i.checkmark-kale {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 22px;
+    width: 13px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-image: url(checkmark.svg);
+}
+
+@media (min-width: 768px){
+.padding-top-md-none {
+    padding-top: 0 !important;
+}}
+
+.relative {
+    position: relative;
+}
+
+
+.border-bottom {
+    border-bottom: 1px solid #eaeaea;
+}
+
+@media (min-width: 768px){
+.margin-bottom-md-15px {
+    margin-bottom: 15px !important;
+}}
+
+.padding-left-25px {
+    padding-left: 25px !important;
+}
+
+
+@media (min-width: 768px){
+.d-md-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}}
+
+
+.caption-image-overlay-left {
+    left: 20px;
+}
+
+@media (min-width: 576px){
+.caption-image-overlay-left, .caption-image-overlay-right {
+    bottom: 5px;
+    width: 300px;
+    height: 75px;
+}}
+
+.absolute {
+    position: absolute;
+}
+.c-white {
+    color: #ffffff;
+}
+
 /*========================== end of HRO =========================*/
 
 
