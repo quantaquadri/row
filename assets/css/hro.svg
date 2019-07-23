@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+  <g id="hro" transform="translate(22 15.781)">
+    <g id="Ellipse_58" data-name="Ellipse 58" transform="translate(-22 -15.781)" fill="#fff" stroke="#6262a0" stroke-width="2">
+      <circle cx="90" cy="90" r="90" stroke="none"/>
+      <circle cx="90" cy="90" r="89" fill="none"/>
+    </g>
+    <text id="HR360" transform="translate(-14.394 51.064)" fill="#6262a0" font-size="32" font-family="Nunito-Medium, Nunito" font-weight="500"><tspan x="31.268" y="31">HR360</tspan></text>
+  </g>
+</svg>

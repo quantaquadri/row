@@ -181,6 +181,19 @@ header .container img.logo {
 }
 
 
+.section.hero.home.hro {
+    position: relative;
+    /* margin-bottom: 10px; */
+    padding-bottom: 100px;
+    /*background-color: #FFE7BD;*/
+    background-image: url(bgfour.png);
+    background-position: 50% 50%;
+    background-size: 1500px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+
 .hero .hero-headline {
     padding-top: 10px;
      color: #000; 
@@ -769,7 +782,7 @@ blockquote {
 
 .cell {
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: left;
     text-decoration: none;
 }
@@ -829,7 +842,7 @@ blockquote {
 
 .section.slight-gray-top {
     position: relative;
-    padding-top: 0px;
+    padding-top: 30px;
     padding-bottom: 50px;
     /*background-image: -webkit-gradient(linear, left bottom, left top, from(#f5f7fa), color-stop(29%, #fff));
     background-image: linear-gradient(0deg, #f5f7fa, #fff 29%);*/
@@ -871,7 +884,7 @@ blockquote {
 
 .heading-6-body {
     margin-bottom: 24px;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 38px;
     font-weight: 400;
     color: #6262A0
@@ -1184,7 +1197,7 @@ strong {
 }
 
 .container.centered {
-    margin-top: 32px;
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -1357,7 +1370,7 @@ ul {
 .concierge-carousel .slide-wrapper .carousel-indicators li.active {
     width: 45px;
     height: 3px;
-    background-color: #e57414;
+    background-color: #F79320;
 }
 
 .concierge-carousel .slide-wrapper p {
@@ -1878,7 +1891,7 @@ a.text-cta {
 
 
 .hero .hero-headline {
-    padding-top: 10px;
+    padding-top: 80px;
     color: #fff;
     font-size: 42px;
     font-weight: 600;
@@ -2982,6 +2995,39 @@ footer#footer section .footer-main-links .about ul.social-links li, footer#foote
 
 
 
+
+.icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+}
+.icon-bike {
+  background-image: url(hro.svg);
+}
+.icon-bike:hover,
+.icon-bike:focus {
+  background-image: url(hroo.svg);
+}
+.icon-bell {
+  background-image: url(hr360.svg);
+}
+.icon-bell:hover,
+.icon-bell:focus {
+  background-image: url(hr3600.svg);
+}
+
+
+.blue-gradient{
+	background-color: #6262A0;
+}
+
+.description.home.extended{
+	padding: 18px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 32px;
+}
 
 
 
