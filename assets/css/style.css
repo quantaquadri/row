@@ -365,10 +365,261 @@ header .container img.logo {
     margin: 0px auto;
 }
 
+@media (max-width: 479px){
+.section.hero.home.photography {
+    padding-bottom: 300px;
+    background-image: url(bgtwo.png);
+    background-position: 50% 100%;
+    background-size: cover;
+}}
+
+
+@media (max-width: 767px){
+.section.hero.home.photography {
+    background-image: url(bgtwo.png);
+}}
+
+@media (max-width: 991px){
+.section.hero.home.photography {
+    padding-bottom: 90px;
+    background-image: url(bgtwo.png);
+    background-size: 2000px;
+}}
+
+
+@media (max-width: 479px){
+.heading-home {
+    font-size: 25px;
+    line-height: 30px;
+}}
+
+@media (max-width: 991px){
+.heading-home {
+    margin-top: -10px;
+}}
+
+
+@media (max-width: 479px){
+.subhead.mobile.home {
+    font-size: 16px;
+    line-height: 20px;
+}}
+
+
+@media (max-width: 479px){
+.button {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}}
+
+
+@media (max-width: 479px){
+.section.logos {
+    padding-top: 20px;
+}}
+
+/*@media (max-width: 479px){
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}}
+
+@media (max-width: 767px){
+.section {
+    padding: 60px 25px;
+}}
+
+@media (max-width: 991px){
+.section {
+    padding: 50px 40px;
+}}*/
+
+
+@media (max-width: 479px){
+.container.centered {
+    text-align: center;
+}}
+
+
+
+@media (max-width: 479px){
+.heading-2-body {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}}
+
+
+@media (max-width: 479px){
+.subhead.subsequent {
+    font-size: 16px;
+    line-height: 22px;
+}}
+
+
+@media (max-width: 479px){
+.subhead {
+    font-size: 17px;
+    line-height: 27px;
+}}
+
+
+@media (max-width: 479px){
+.clients-bar.mobile {
+    max-width: 100%;
+    margin-top: 20px;
+}}
+
+/*@media (max-width: 767px){
+.clients-bar.mobile {
+    display: block;
+}}*/
+
+
+@media (max-width: 767px){
+.clients-bar.desktop {
+    display: none;
+}}	
+
+
+@media (max-width: 479px){
+.powering-section {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}}
+
+@media (max-width: 767px){
+.powering-section {
+    position: relative;
+}}
+
+
+
+
+@media (max-width: 479px){
+.employee-avatar {
+    display: none;
+}}
+
+@media (max-width: 767px){
+.employee-avatar {
+    display: none;
+}}
+
+@media (max-width: 479px){
+.powering-people {
+    position: relative;
+    padding-right: 14px;
+    padding-left: 14px;
+}}
+
+
+@media (max-width: 767px){
+.powering-people {
+    position: relative;
+    max-width: 100%;
+}}
+
+
+@media (max-width: 767px){
+.employee-mobile {
+    display: block;
+    max-width: 32px;
+    margin-top: 10px;
+    border-radius: 100px;
+}}
+
+@media (max-width: 991px){
+.powering-people {
+    max-width: 82%;
+    padding: 30px;
+}}
+
+
+@media (max-width: 479px){
+.powering-quote {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 17px;
+    line-height: 22px;
+}}
+
+@media (max-width: 767px){
+.powering-quote {
+    width: auto;
+}}
+
+
+@media (max-width: 991px){
+.powering-quote {
+    width: 310px;
+    padding-right: 18px;
+    font-size: 20px;
+    line-height: 26px;
+}}
+
+
+@media (max-width: 479px){
+.intro-quote {
+    display: none;
+}}
+
+@media (max-width: 991px){
+.intro-quote {
+    left: -24px;
+    top: -16px;
+}}
+
+
+@media (max-width: 479px){
+.powering-quote-author {
+    font-size: 14px;
+}}
+
+
+@media (max-width: 479px){
+.powering-fact {
+    margin-top: 28px;
+    padding-top: 24px;
+    padding-left: 0px;
+    border-top: 1px solid #ded6cd;
+    border-left-style: none;
+}}
+
+@media (max-width: 767px){
+.powering-fact {
+    margin-top: 24px;
+    padding-top: 20px;
+    padding-left: 0px;
+    border-top: 1px solid #ded6cd;
+    border-left-style: none;
+}}
+
+@media (max-width: 991px){
+.powering-fact {
+    padding-left: 21px;
+}}
+
+
+@media (max-width: 479px){
+.powering-key-number {
+    font-size: 30px;
+    line-height: 40px;
+}}
+
+@media (max-width: 767px){
+.powering-key-number {
+    font-size: 40px;
+}}
+
+
 /*---------- end of banner -------*/
 
 
 /*------------ logo section -------*/
+
+
 
 .section.logos {
     padding-top: 0px;
@@ -731,6 +982,9 @@ blockquote {
 .cta-text-arrow {
     font-size: 16px;
 }}
+
+
+
 
 /*------ end of logo section -----*/
 
@@ -3559,9 +3813,9 @@ input.w-button {
     display: block;
 }}
 
-.clients-bar.mobile {
+/*.clients-bar.mobile {
     display: none;
-}
+}*/
 
 
 /*========================== HRO =========================*/
