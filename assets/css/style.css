@@ -2476,7 +2476,7 @@ p.text-cta.arrow::after {
 
 
 .guide-box {
-    background-color: #FFFCF8;
+    background-color:#FFF2DF;
     padding: 40px;
 }
 
@@ -2678,6 +2678,40 @@ hr {
     bottom: 3px;
 }
 
+.board-header {
+    height: 400px;
+    background-image: url(rofam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+#videoframe .board-header .container, .board-header #videoframe .container, .board-header .container, .board-header .container-padded {
+    height: 100%;
+}
+
+.verticalCenter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.board-header h1 {
+    color: #fff;
+    font-size: 34px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.center {
+    margin: auto;
+    text-align: center!important;
+}
 
 /*-------------  end of About Us CSS -------------*/
 
