@@ -259,6 +259,16 @@ header .container img.logo {
 }
 
 
+.subhead.pcc.home {
+    margin-bottom: 30px;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
 .button-fat.home {
     padding: 12px 28px;
     border-radius: 4px;
@@ -297,6 +307,26 @@ header .container img.logo {
     -webkit-transition: all 150ms ease;
     transition: all 150ms ease;
     color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+
+.button-robust {
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+    padding: 12px 24px;
+    border: 0.5px solid white;
+    /*background-color: #f79320;*/
+    /*box-shadow: 1px 3px 9px 0 rgba(0, 0, 0, 0.09);*/
+    border-radius: 3px;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    color: #fff;
     font-size: 16px;
     line-height: 25px;
     font-weight: 500;
@@ -439,7 +469,7 @@ header .container img.logo {
     max-width: 80%;
     padding: 60px;
     border-radius: 3px;
-    background-color: #fffcf8;
+    background-color: #FFF2DF;
     text-align: left;
 }
 
@@ -830,7 +860,7 @@ blockquote {
 
 .ctab {
     /*background-color: #FFF9F0;*/
-    background-color: #FFE7BD;
+    background-color: #6262A0;
     padding: 40px 40px;
     color: #000;
     text-align: center;
@@ -921,7 +951,7 @@ blockquote {
 
 @media (min-width: 768px){
 .parsnip .stats-border-right:after {
-    background: #ffffff;
+    background: #fff;
 }}
 
 @media (min-width: 768px){
@@ -962,6 +992,14 @@ blockquote {
     line-height: 38px;
     font-weight: 700;
     color: #000;
+}
+
+.heading-7-body {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #fff;
 }
 
 .heading-6-body {
@@ -1048,7 +1086,7 @@ blockquote {
 .testimonial-tabs-content {
     padding: 80px;
     border-radius: 3px;
-    background-color: #FFFCF8;
+    background-color: #FFF2DF;
 }
 
 
@@ -1512,7 +1550,7 @@ ul {
 }*/
 
 .bg-salt-50 {
-    background-color: #fafafa !important;
+    background-color: #fbfbfb !important;
 }
 
 .info-sheet-cta img {
@@ -2190,7 +2228,7 @@ label {
 
 
 .bottom-signup__secondary {
-    background: #FFFCF8;
+    background: #FFF2DF;
     position: relative;
     text-align: left;
     z-index: 1;
@@ -2274,7 +2312,7 @@ span.span-inline-block-sm {
 .card__article__category {
     color: #a5a6ac;
     font-family: 'Nunito', sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     padding: 25px 10px 0px 15px;
     text-transform: uppercase;
 }
@@ -2739,10 +2777,11 @@ hr {
 
 a.text-cta {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 14px;
     left: 0;
     position: relative;
     text-decoration: none;
+    color: #f79320;
 }
 
 #customer-story-overview{
@@ -3331,7 +3370,7 @@ input.w-button {
 
 /*========================== HRO =========================*/
 .bg-parsnip-200 {
-    background-color: #FFFCF8 !important;
+    background-color: #FFF2DF !important;
 }
 
 
@@ -3353,7 +3392,8 @@ input.w-button {
 }
 
 .c-guava-500 {
-    color: #f45d48 !important;
+    color: #F79320 !important;
+    font-weight: 400;
 }
 
 @media (min-width: 1200px){
@@ -3375,14 +3415,11 @@ input.w-button {
     margin-bottom: 20px !important;
 }
 
-.padding-left-25px {
-    padding-left: 25px !important;
-}
 
 
-.small-group-checklist .width-50 {
+/*.small-group-checklist .width-50 {
     width: 50%;
-}
+}*/
 
 i.checkmark-kale {
     display: block;
@@ -3448,6 +3485,7 @@ i.checkmark-kale {
 
 .text-large-bolder{
 	font-weight: 600;
+	color: #000;
 }
 
 
