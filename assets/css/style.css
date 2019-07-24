@@ -186,7 +186,7 @@ header .container img.logo {
     /* margin-bottom: 10px; */
     padding-bottom: 100px;
     background-color: #fff;
-    /*background-image: url(bgfour.png);*/
+    /*background-image: url(bg-1.png);*/
     background-position: 50% 50%;
     background-size: 1500px;
     background-attachment: scroll;
@@ -2328,6 +2328,7 @@ span.span-inline-block-sm {
     box-shadow: 0px 2px 5px rgba(0,0,0,0.08);
     -webkit-transition: all 125ms ease-in-out;
     transition: all 125ms ease-in-out;
+    background-color: #fff;
 }
 
 
@@ -2368,7 +2369,7 @@ p.text-cta {
     margin-bottom: 0;
 }
 .card__article__link {
-    color: #e57414;
+    color: #F79320;
     font-size: 14px;
     padding-bottom: 20px;
     padding-left: 15px;
@@ -2501,6 +2502,14 @@ p.text-cta.arrow::after {
     float: left;
 }
 
+.no-padding {
+    padding: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
 
 
 .regularBack h4 {
@@ -2522,12 +2531,55 @@ p.text-cta.arrow::after {
     color: #fff;
 }
 
+.bgRed, .bgRed h4, .bgRed p {
+    color: #fff;
+}
+
+@media (min-width: 992px){
+.col-md-6 {
+    width: 50%;
+}}
+
+
 .bgPurple {
     background: #6262A0;
 }
 
 .bgRed {
-    background: #FFF2DF;
+    background: #F79320;
+}
+
+@media (max-width: 992px){
+.about-feature-item {
+    width: 100%;
+    padding: 50px;
+    height: auto;
+}}
+
+
+@media (max-width: 992px){
+.about-feature-item p {
+    width: auto;
+}}
+
+
+.regularBack .button {
+    color: #F79320;
+    border-color: #F79320;
+}
+
+.button.inverted {
+    background-color: transparent;
+}
+.button.inverted, .button:hover {
+    border: 1px solid #F79320;
+    color: #F79320;
+}
+
+.button.inverted-white, .button.inverted-white:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 
@@ -2604,13 +2656,13 @@ hr {
 
 
 .explore {
-    background: #fafafa url(https://zenefits.imgix.net/521ce14…/static/out/2e1d0d2….png?auto=format,compress) 100% 100% no-repeat;
+    background: #fafafa url(stripe.png) 100% 100% no-repeat;
 }
 
 
 .about-jobs-cta {
     height: 420px;
-    background-image: url(https://zenefits.imgix.net/521ce14…/static/out/bee5572….jpg?auto=format,compress);
+    background-image: url(rofam.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -2618,19 +2670,24 @@ hr {
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    /*box-shadow: 5px 5px 35px 3px rgba(43,43,43,.05);*/
+    box-shadow: 5px 5px 35px 3px rgba(43,43,43,.5);
 }
 
 
 .jobs--cta {
     background: transparent;
-    /*padding: 0 20px 0 100px;*/
+    padding: 0 20px 0 100px;
     color: #fff;
+}
+
+section {
+    width: 100%;
+    padding: 50px 0;
 }
 
 
 .jobs--cta h3, .jobs--cta p {
-    color: #000;
+    color: #fff;
     padding-bottom: 20px;
     font-family: 'Nunito', sans-serif;
     text-align: left;
@@ -2641,6 +2698,83 @@ hr {
     margin-top: 0;
     font-weight: 600;
 }
+
+
+@media (max-width: 992px){
+.explore {
+    padding: 20px;
+    background: #ebedf2 url(stripe.png) 100% 100% no-repeat;
+    background-size: 90%;
+}}
+
+
+@media screen and (max-width: 768px){
+section {
+    padding: 20px 0;
+}}
+
+
+@media (max-width: 992px){
+.jobs--cta {
+    padding: 10px;
+}}
+
+@media (max-width: 768px){
+.jobs--cta {
+    width: 100%;
+    margin: 0 auto;
+}}
+
+@media screen and (max-width: 992px){
+.customers--subnav--item h1, .customers--subnav--item h2, .customers--subnav--item p {
+    text-align: center;
+}}
+
+@media (max-width: 992px){
+.customers--subnav--item h2 {
+    font-size: 40px;
+}}
+
+
+@media (max-width: 992px){
+.about--subnav .col-sm-6, .about--subnav col-xs-6 {
+    height: 180px;
+}}
+
+@media (max-width: 992px){
+.about-video-section+section {
+    padding-top: 30px;
+}}
+
+@media (max-width: 992px){
+.ourStory .storyText {
+    font-size: 30px;
+    padding: 20px;
+}}
+
+
+@media (max-width: 480px){
+.about--press h2 {
+    margin-bottom: 1em;
+}}
+
+
+@media (max-width: 768px){
+#top-hub .about-icon {
+    height: auto;
+    margin-top: 6px;
+}}
+
+@media (max-width: 768px){
+.about-icon {
+    height: auto;
+    width: 20%;
+}}
+
+
+
+
+
 
 
 @media (min-width: 992px){
