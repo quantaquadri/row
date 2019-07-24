@@ -194,6 +194,19 @@ header .container img.logo {
 }
 
 
+.section.hero.home.about {
+    position: relative;
+    /* margin-bottom: 10px; */
+    padding-bottom: 100px;
+    background-color: #fff;
+    background-image: url(uwem.png);
+    background-position: 50% 50%;
+    background-size: 1500px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+
 .container.centered.performance {
     margin-top: 80px;
     padding-top: 80px;
@@ -2413,7 +2426,7 @@ p.text-cta.arrow::after {
     font-size: 60px;
     font-weight: 600;
     line-height: 64px;
-    color: #fff;
+    color: #F79320;
 }
 
 .customers--subnav--item h1, .customers--subnav--item h2 {
@@ -2436,10 +2449,10 @@ p.text-cta.arrow::after {
 
 .ourStory h5 {
     text-transform: uppercase;
-    color: #e57414;
+    color: #F79320;
     text-align: center;
     font-size: 14px;
-    font-weight: 600;
+    /*font-weight: 600;*/
 }
 
 
@@ -2489,11 +2502,6 @@ p.text-cta.arrow::after {
 }
 
 
-.product-row {
-    max-width: 1170px;
-    margin: auto;
-    height: 100%;
-}
 
 .regularBack h4 {
     color: #000;
@@ -2502,6 +2510,7 @@ p.text-cta.arrow::after {
 .about-feature-item h4 {
     font-weight: 600;
     font-size: 28px;
+    color: #000;
 }
 
 .about-feature-item p {
@@ -2518,7 +2527,7 @@ p.text-cta.arrow::after {
 }
 
 .bgRed {
-    background: #FFE7BD;
+    background: #FFF2DF;
 }
 
 
@@ -2544,6 +2553,16 @@ p.text-cta.arrow::after {
     margin: auto;
     height: 100%;
 }
+
+
+@media (min-width: 992px){
+.product-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}}
+
 
 #top-hub .about-icon {
     height: 75px;
@@ -3483,6 +3502,10 @@ i.checkmark-kale {
     width: 300px;
     height: 75px;
 }}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
 
 .absolute {
     position: absolute;
