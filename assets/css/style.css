@@ -1562,11 +1562,11 @@ ul {
 
 
 .padding-top-md-160px {
-    padding-top: 160px !important;
+    padding-top: 60px !important;
 }
 
 .padding-bottom-140px {
-    padding-bottom: 140px !important;
+    padding-bottom: 60px !important;
 }
 
 ul.list-checkmark {
@@ -2231,7 +2231,7 @@ label {
 
 
 .bottom-signup__secondary p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @media (min-width: 992px){

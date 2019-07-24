@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="33.098" height="28.398" viewBox="0 0 33.098 28.398">
-  <g id="alert" transform="translate(0.072 -0.051)">
-    <path id="Path_1125" data-name="Path 1125" d="M16.6,27.2H4.1a2.991,2.991,0,0,1-2.5-4.6L14,2.6a3.106,3.106,0,0,1,2.5-1.4A2.851,2.851,0,0,1,19,2.6L31.4,22.7a3.023,3.023,0,0,1-2.5,4.6H16.6Zm0-17.3v6.2" fill="none" stroke="#253993" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.298"/>
-    <circle id="Ellipse_59" data-name="Ellipse 59" cx="1.4" cy="1.4" r="1.4" transform="translate(15.2 19.7)" fill="#253993"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="33.101" height="28.398" viewBox="0 0 33.101 28.398">
+  <g id="alert" transform="translate(0.064 -0.051)">
+    <path id="Path_1125" data-name="Path 1125" d="M16.6,27.2H4.1a2.991,2.991,0,0,1-2.5-4.6L14,2.6a3.106,3.106,0,0,1,2.5-1.4A2.851,2.851,0,0,1,19,2.6L31.4,22.7a3.023,3.023,0,0,1-2.5,4.6H16.6Zm0-17.3v6.2" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.298"/>
+    <circle id="Ellipse_59" data-name="Ellipse 59" cx="1.4" cy="1.4" r="1.4" transform="translate(15.2 19.7)"/>
   </g>
 </svg>
