@@ -59,10 +59,17 @@ img {
 
 
 
-.section {
-    padding: 50px 30px 0px;
+/*.section {
+    padding: 20px 30px 0px;
 }
-
+*/
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 20px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 
 
 
@@ -143,7 +150,17 @@ header .container img.logo {
 .navbar li a {
 	margin-top: 10px;
 	font-size: 14px;
+	/*border-bottom: .5px solid #fcfcfc;*/
+	/*background-color: #fafafa;*/
 }
+
+
+@media (max-width: 767px){
+.navbar-nav .open .dropdown-menu>li>a {
+    line-height: 20px;
+    background-color: #fcfcfc;
+}}
+
 
 .nav > li > a:focus, 
 .nav > li > a:hover {
@@ -178,7 +195,7 @@ header .container img.logo {
     padding-bottom: 100px;
     /*background-color: #FFE7BD;*/
     background-image: url(bgthree.png);
-    background-position: 50% 50%;
+    /*background-position: 50% 50%;*/
     background-size: 1500px;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -1121,9 +1138,9 @@ blockquote {
     display: block;
     overflow: hidden;
     margin-top: 80px;
-    border: 1px solid #e4e9ee;
-    border-radius: 4px;
-    box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);
+    /*border: 1px solid #e4e9ee;*/
+    /*border-radius: 4px;*/
+    /*box-shadow: 0 0 47px 11px rgba(34, 45, 56, 0.03);*/
 }
 
 .tablet-50{
@@ -1151,7 +1168,7 @@ blockquote {
 .section.slight-gray-top {
     position: relative;
     padding-top: 30px;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
     /*background-image: -webkit-gradient(linear, left bottom, left top, from(#f5f7fa), color-stop(29%, #fff));
     background-image: linear-gradient(0deg, #f5f7fa, #fff 29%);*/
 }
@@ -1385,6 +1402,10 @@ blockquote {
 }
 */
 
+.w-tab-menu {
+    position: relative;
+}
+
 .quote-g2 {
     position: relative;
 }
@@ -1411,6 +1432,279 @@ blockquote {
 .medium {
     font-weight: 600;
 }
+
+
+@media (max-width: 479px){
+.container.quotes {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}}
+
+
+@media (max-width: 479px){
+.heading-2-body.centerd.plus-slider {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 26px;
+}}
+
+
+@media (max-width: 479px){
+.testimonial-home-tabs {
+    width: 100%;
+}}
+
+
+@media (max-width: 479px){
+.image-63 {
+    max-width: 120%;
+}}
+
+
+@media (max-width: 479px){
+.testimonial-tabs-content {
+    padding: 30px 16px;
+}}
+
+
+@media (max-width: 479px){
+.large-resource-content {
+    padding: 25px 25px 70px 0px;
+}}
+
+
+@media (max-width: 767px){
+.large-resource-content {
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+}}
+
+
+@media (max-width: 991px){
+.col-33.grid-item.full-tablet {
+    display: block;
+    width: 100%;
+    margin-bottom: 35px;
+}}
+
+
+
+
+@media (max-width: 479px){
+.section.slight-gray {
+    padding-top: 50px;
+}}
+@media (max-width: 767px){
+.section.slight-gray {
+    padding-top: 80px;
+}}
+@media (max-width: 991px){
+.section.slight-gray {
+    padding-top: 100px;
+}}
+
+
+
+
+@media (min-width: 992px){
+.hero-two-col {
+    min-height: 80vh;
+}}
+
+.relative {
+    position: relative;
+}
+
+@media (min-width: 992px){
+.justify-content-lg-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}}
+
+.hero-image {
+    top: 0px;
+    right: 0px;
+    width: 50vw;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+}
+
+@media (max-width: 991px){
+.hero-image {
+    width: 100vw;
+    height: 300px;
+}}
+
+
+@media (min-width: 992px){
+.absolute-lg {
+    position: absolute;
+}}
+
+@media (min-width: 576px){
+.d-sm-inline {
+    display: inline !important;
+}}
+
+@media (min-width: 992px){
+.text-left-lg {
+    text-align: left !important;
+}}
+
+
+.padding-bottom-none {
+    padding-bottom: 0 !important;
+}
+
+.padding-top-none {
+    padding-top: 0 !important;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+
+@media (min-width: 992px){
+.hero-header {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}}
+
+
+.hero-header {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 992px){
+.align-items-lg-start {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+}}
+
+@media (min-width: 992px){
+.justify-content-lg-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}}
+
+
+@media (min-width: 992px){
+.flex-lg-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}}
+
+
+@media (min-width: 992px){
+.d-lg-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}}
+
+
+@media (min-width: 992px){
+.offset-lg-0 {
+    margin-left: 0;
+}}
+
+
+.margin-bottom-15px {
+    margin-bottom: 15px !important;
+}
+
+.c-guava-500 {
+    color: #f45d48 !important;
+}
+.d-block {
+    display: block !important;
+}
+
+@media (min-width: 576px){
+.bleed-h1 {
+    margin-bottom: 0;
+}}
+
+.bleed-h1 {
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+
+
+@media (min-width: 768px){
+.d-md-block {
+    display: block !important;
+}}
+
+
+@media (min-width: 576px){
+.copy-image {
+    margin-left: 0px;
+}}
+
+@media (min-width: 576px){
+.absolute-sm {
+    position: absolute;
+}}
+
+@media (min-width: 576px){
+.d-sm-none {
+    display: none !important;
+}}
+
+
+.copy-image {
+    margin-left: 15px;
+}
+
+
+
+@media (max-width: 991px){
+.bleed-container {
+    padding-bottom: 20px;
+}}
+
+
+.margin-bottom-30px {
+    margin-bottom: 30px !important;
+}
+
+
+@media (max-width: 991px){
+.hero-two-col p.text-large {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0px;
+}}
+
+
+.img-square-65px {
+    width: 65px !important;
+    height: 65px !important;
+    min-width: 65px !important;
+}
+
+
+
 
 
 
@@ -2005,14 +2299,14 @@ a.text-cta {
 	}
 
 	.navbar-toggle {
-		background-color: #777;
+		/*background-color: #777;*/
 		margin-right: 0;
-		border-color: #777;
+		/*border-color: #777;*/
 		margin-top: 20px;
 	}
 
 	.navbar-toggle .icon-bar {
-		border:solid 1px #fff;
+		border:solid 1px #000;
 	}
 
 	.navbar-collapse {
@@ -2036,6 +2330,22 @@ a.text-cta {
 	}
 
 }
+
+
+@media (max-width: 767px){
+.navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    border-color: 1px solid #c7c7c7;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
+}}
+
 
 @media (min-width: 480px) {
 
@@ -3143,7 +3453,7 @@ section {
 
 
 .cust-story .cust-story__img a .img.student-loan-hero {
-    background-image: url(tr1.png);
+    background-image: url(axalady.png);
     background-size: cover auto;
     background-size: cover;
 }
@@ -3158,8 +3468,8 @@ section {
 
 
 .cust-story .cust-story__img a .cust-story__img__text h6 {
-    /*text-shadow: 0px 2px 4px rgba(0,0,0,0.35);*/
-    color: #000;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.35);
+    color: #fff;
     display: inline-block;
 }
 
@@ -3176,7 +3486,7 @@ section {
 }}
 
 .cust-story .cust-story__text {
-    border: 1px solid #f6f6f6;
+    border: 1px solid #c7c7c7;
     padding: 20px 20px;
 }
 
@@ -3225,13 +3535,13 @@ section {
 
 .cust-story .cust-story__text q {
     font-family: inherit;
-    font-size: 0.85em;
+    font-size: 0.8em;
 }
 
 
 a.text-cta {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     left: 0;
     position: relative;
     text-decoration: none;
@@ -3239,7 +3549,7 @@ a.text-cta {
 }
 
 #customer-story-overview{
-	padding-top: 60px;
+	/*padding-top: 60px;*/
 	padding-bottom: 60px;
 }
 
@@ -3950,6 +4260,18 @@ i.checkmark-kale {
 /*======================== end of HRO =========================*/
 
 
+/*--------------- pdf section ---------------------*/
+
+@media (min-width: 576px){
+	..margin-top-none{
+		padding: 40px;
+	}
+}
+
+
+
+
+/*---------------- end of pdf section ----------------------*/
 
 
 
