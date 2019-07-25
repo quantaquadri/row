@@ -3250,7 +3250,7 @@ hr {
 
 section {
     width: 100%;
-    padding: 50px 0;
+    /*padding: 50px 0;*/
 }
 
 
@@ -3523,7 +3523,7 @@ section {
 
 
 .cust-story {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 .cust-story .cust-story__img a .cust-story__img__text {
