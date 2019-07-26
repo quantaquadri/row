@@ -761,7 +761,7 @@ header .container img.logo {
     max-width: 80%;
     padding: 60px;
     border-radius: 3px;
-    background-color: #FFF2DF;
+    background-color: #FFE7BD;
     text-align: left;
 }
 
@@ -1381,7 +1381,7 @@ blockquote {
 .testimonial-tabs-content {
     padding: 80px;
     border-radius: 3px;
-    background-color: #FFF2DF;
+    background-color: #FFE7BD;
 }
 
 
@@ -1974,7 +1974,7 @@ ul {
 }
 
 .bg-gray {
-    background-color: #FFF2DF !important;
+    background-color: #FFE7BD !important;
 }
 
 .border-radius-3px {
@@ -2026,7 +2026,7 @@ ul {
 .concierge-carousel .slide-wrapper {
     padding: 20px;
     /*border: 1px solid #F79320;*/
-    background-color: #FFF2DF;
+    background-color: #FFE7BD;
 }
 
 .concierge-carousel .slide-wrapper p {
@@ -2818,7 +2818,7 @@ label {
 
 
 .bottom-signup__secondary {
-    background: #FFF2DF;
+    background: #FFE7BD;
     position: relative;
     text-align: left;
     z-index: 1;
@@ -4134,7 +4134,7 @@ input.w-button {
 
 /*========================== HRO =========================*/
 .bg-parsnip-200 {
-    background-color: #FFF2DF !important;
+    background-color: #FFE7BD !important;
 }
 
 
@@ -4273,6 +4273,129 @@ i.checkmark-kale {
 
 /*---------------- end of pdf section ----------------------*/
 
+
+/*hr360 page*/
+
+.four-col-grid.ginger {
+    background-color: #fff;
+    padding: 40px; 
+}
+
+
+.flex-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+
+.ginger .container {
+    background-color: #fff;
+}
+
+.four-col-grid img {
+    height: auto;
+    width: 50px;
+}
+
+/*@media (min-width: 1200px){
+h2, .h2 {
+    font-size: 49px;
+    font-size: 4.9rem;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.285px;
+}}*/
+
+
+.four-col-grid.ginger .grid-border {
+    background-color: #ffffff;
+}
+
+
+@media (min-width: 992px){
+.four-col-grid .css-grid {
+    grid-template-columns: 25% 25% 25% 25%;
+    -ms-grid-columns: 25% 25% 25% 25%;
+    -ms-grid-rows: 50% 50%;
+}}
+
+@media (min-width: 576px){
+.four-col-grid .css-grid {
+    /*grid-template-columns: 50% 50%;*/
+    -ms-grid-columns: 50% 50%;
+    -ms-grid-rows: 25% 25% 25% 25%;
+}}
+
+.four-col-grid .css-grid {
+    display: grid;
+    display: -ms-grid;
+    /*grid-template-columns: 100%;*/
+    -ms-grid-columns: 100%;
+    -ms-grid-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-gap: 2px;
+}
+
+.four-col-grid.ginger .grid-item {
+    background-color: #FFE7BD;
+}
+
+@media (min-width: 576px){
+.four-col-grid .css-grid .grid-item {
+    padding: 25px 30px;
+}}
+
+.four-col-grid .css-grid .grid-item {
+    padding: 35px 30px;
+}
+
+.ginger p {
+    color: #222525;
+    font-size: 14px;
+}
+
+
+.h6 {
+    font-size: 25px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    color: #000;
+}
+
+
+@media (min-width: 768px){
+.four-col-grid .margin-bottom-title {
+    margin-bottom: 65px;
+}}
+
+@media (min-width: 576px){
+.four-col-grid .margin-bottom-title {
+    margin-bottom: 30px;
+}}
+
+
+@media (max-width: 767px){
+.four-col-grid .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}}
+
+
+/*@media (min-width: 1200px){
+.container {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    width: 95%;
+}}*/
+
+
+.align-self-center {
+    -ms-flex-item-align: center !important;
+    -ms-grid-row-align: center !important;
+    align-self: center !important;
+}
 
 
 
