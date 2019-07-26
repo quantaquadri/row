@@ -4591,3 +4591,146 @@ h4, .h4 {
     letter-spacing: -0.25px;
 }}
 
+
+@media (min-width: 992px){
+.d-lg-block {
+    display: block !important;
+}}
+
+.padding-left-none {
+    padding-left: 0 !important;
+}
+
+
+
+.width-100 {
+    width: 100%;
+}
+
+.caption-image-overlay-right {
+    right: 20px;
+}
+
+@media (min-width: 576px){
+.caption-image-overlay-left, .caption-image-overlay-right {
+    bottom: 5px;
+    width: 300px;
+    height: 75px;
+}}
+
+.text-right {
+    text-align: right !important;
+}
+.absolute {
+    position: absolute;
+}
+.c-white {
+    color: #ffffff;
+}
+
+
+@media (min-width: 1200px){
+.integrated-platform .cards {
+    top: 15%;
+}}
+
+@media (min-width: 992px){
+.integrated-platform .cards {
+    top: 5%;
+}}
+@media (min-width: 576px){
+.integrated-platform .cards {
+    right: unset;
+    left: -15px;
+}}
+.integrated-platform .cards {
+    top: 8%;
+    right: -5px;
+}
+
+
+
+
+.flex-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+
+
+.margin-bottom-5px {
+    margin-bottom: 5px !important;
+}
+
+.padding-25px {
+    padding: 25px !important;
+}
+.box-shadow {
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.05);
+}
+.relative {
+    position: relative;
+}
+.border-radius-2px {
+    border-radius: 2px;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+.d-table {
+    display: table !important;
+}
+
+
+.img-square-40px {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+}
+
+
+.integrated-platform .cards div:nth-child(1) .circle {
+    -webkit-transition-delay: 200ms;
+    transition-delay: 200ms;
+}
+
+.integrated-platform .cards.animated .circle {
+    opacity: 0;
+    -webkit-transform: rotate(0.5turn);
+    transform: rotate(0.5turn);
+}
+.integrated-platform .cards .circle {
+    left: 30px;
+    top: 30px;
+    -webkit-transition: opacity 200ms ease-in, -webkit-transform 200ms linear;
+    transition: opacity 200ms ease-in, -webkit-transform 200ms linear;
+    transition: opacity 200ms ease-in, transform 200ms linear;
+    transition: opacity 200ms ease-in, transform 200ms linear, -webkit-transform 200ms linear;
+    will-change: opacity, transform;
+}
+img.circle {
+    border-radius: 50%;
+}
+
+.integrated-platform .cards div:nth-child(1) .logo {
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+
+.integrated-platform .cards.animated .logo {
+    opacity: 1;
+}
+.integrated-platform .cards .logo {
+    left: 25px;
+    top: 25px;
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    will-change: opacity;
+}
+
+
+.integrated-platform{
+	padding-bottom: 70px;
+}
