@@ -201,13 +201,21 @@ header .container img.logo {
     background-repeat: no-repeat;
 }
 
+.hrro{
+
+	/*background-image: url(bgn.png);*/
+	background-size: 1500px;
+	background-color: #fefefe;
+
+}
+
 
 .section.hero.home.hro {
     position: relative;
     /* margin-bottom: 10px; */
     padding-bottom: 100px;
     background-color: #fff;
-    /*background-image: url(bg-1.png);*/
+    background-image: url(bgn.png);
     background-position: 50% 50%;
     background-size: 1500px;
     background-attachment: scroll;
@@ -230,7 +238,7 @@ header .container img.logo {
 
 .container.centered.performance {
     margin-top: 80px;
-    padding-top: 80px;
+    padding-top: 40px;
     border-top: 1px solid #dce1e5;
 }
 
@@ -826,7 +834,7 @@ blockquote {
 
 .powering-fact {
     padding-left: 24px;
-    border-left: 1px solid #ded6cd;
+    border-left: 1px solid #777;
 }
 
 .powering-key-number {
@@ -1051,7 +1059,7 @@ blockquote {
 .video-lightbox.small {
     display: block;
     max-width: 770px;
-    margin: 40px auto 0px;
+    margin: 20px auto 0px;
 }
 
 
@@ -1167,10 +1175,11 @@ blockquote {
 
 .section.slight-gray-top {
     position: relative;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     padding-bottom: 50px;
-    /*background-image: -webkit-gradient(linear, left bottom, left top, from(#f5f7fa), color-stop(29%, #fff));
-    background-image: linear-gradient(0deg, #f5f7fa, #fff 29%);*/
+    margin-bottom: 40px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#fbfbfb), color-stop(29%, #fff));
+    background-image: linear-gradient(0deg, #fbfbfb, #fff 29%);
 }
 
 
@@ -3230,7 +3239,7 @@ hr {
 
 .about-jobs-cta {
     height: 420px;
-    background-image: url(rofam.jpg);
+    background-image: url(rofam.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
