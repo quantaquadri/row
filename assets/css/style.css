@@ -4589,6 +4589,7 @@ h4, .h4 {
     font-weight: 700;
     line-height: 36px;
     letter-spacing: -0.25px;
+    color: #000;
 }}
 
 
@@ -4734,3 +4735,19 @@ img.circle {
 .integrated-platform{
 	padding-bottom: 70px;
 }
+
+
+.animation.fade-up.animated, .animation.animated.fade-up-15px, .animation .fade-up.animated, .animation .animated.fade-up-15px {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.animation.fade-up, .animation.fade-up-15px, .animation .fade-up, .animation .fade-up-15px {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: opacity 500ms cubic-bezier(0.22, 0, 0.34, 0.98),-webkit-transform 500ms cubic-bezier(0.22, 0, 0.34, 0.98);
+    transition: opacity 500ms cubic-bezier(0.22, 0, 0.34, 0.98),-webkit-transform 500ms cubic-bezier(0.22, 0, 0.34, 0.98);
+    transition: opacity 500ms cubic-bezier(0.22, 0, 0.34, 0.98),transform 500ms cubic-bezier(0.22, 0, 0.34, 0.98);
+    transition: opacity 500ms cubic-bezier(0.22, 0, 0.34, 0.98),transform 500ms cubic-bezier(0.22, 0, 0.34, 0.98),-webkit-transform 500ms cubic-bezier(0.22, 0, 0.34, 0.98);
+}
+
