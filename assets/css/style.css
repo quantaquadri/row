@@ -418,8 +418,8 @@ header .container img.logo {
 
 @media (max-width: 479px){
 .heading-home {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 35px;
 }}
 
 @media (max-width: 991px){
@@ -431,7 +431,7 @@ header .container img.logo {
 @media (max-width: 479px){
 .subhead.mobile.home {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 30px;
 }}
 
 
@@ -816,7 +816,7 @@ blockquote {
 }
 
 .powering-quote-author {
-    color: #585452;
+    color: #000;
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
@@ -928,8 +928,8 @@ blockquote {
 .powering-quote {
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 30px;
 }}
 @media (max-width: 767px){
 .powering-quote {
@@ -969,7 +969,7 @@ blockquote {
 
 @media (max-width: 479px){
 .powering-section {
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }}
 
@@ -4078,7 +4078,14 @@ input.w-button {
 @media (max-width: 479px){
 .container.centered {
     text-align: center;
+    margin-top: -20px;
 }}
+
+@media (max-width: 479px){
+.heading-6-body {
+    font-size: 14px;
+}}
+
 
 
 @media (max-width: 479px){
