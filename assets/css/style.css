@@ -1546,6 +1546,7 @@ blockquote {
 .hero-image {
     width: 100vw;
     height: 300px;
+    display: none;	
 }}
 
 
@@ -1707,9 +1708,9 @@ blockquote {
 
 
 .img-square-65px {
-    width: 65px !important;
-    height: 65px !important;
-    min-width: 65px !important;
+    width: 30px !important;
+    height: 30px !important;
+    min-width: 30px !important;
 }
 
 
@@ -3466,6 +3467,13 @@ section {
     background-size: cover auto;
     background-size: cover;
 }
+
+.cust-story .cust-story__img a .img.student-loan-hero-1 {
+    background-image: url(hardrockk.png);
+    background-size: cover auto;
+    background-size: cover;
+}
+
 .cust-story .cust-story__img a .img {
     position: absolute;
     width: 100%;
