@@ -4838,7 +4838,7 @@ img.circle {
 .p-tag{
 	font-size: 16px;
 	line-height: 30px;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 	color: #000;
 }
 
