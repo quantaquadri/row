@@ -210,6 +210,21 @@ header .container img.logo {
     background-repeat: no-repeat;
 }
 
+@media (max-width: 479px){
+	.section.hero.home.hr360 {
+    position: relative;
+    /* margin-bottom: 10px; */
+    padding-bottom: 75px;
+    /*background-color: #FFE7BD;*/
+    background-image: url(bgthree.png);
+    background-position: auto;
+    background-size: 1500px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+}
+
 .hrro{
 
 	/*background-image: url(bgn.png);*/
@@ -3829,8 +3844,15 @@ q.pull-quote {
 footer#footer {
     z-index: 1;
     position: relative;
+    /*padding-top: 80px;*/
 }
 
+@media (min-width: 479px){
+footer#footer {
+    z-index: 1;
+    position: relative;
+    padding-top: 40px;
+}}
 
 
 footer#footer section {
@@ -4387,7 +4409,7 @@ h2, .h2 {
 }
 
 .four-col-grid.ginger .grid-item {
-    background-color: #FFE7BD;
+    background-color: rgba(	255, 231, 189, 0.8);
 }
 
 @media (min-width: 576px){
@@ -4905,3 +4927,6 @@ img.circle {
 }
 
 
+.down-x{
+	padding-top: 30px;
+}
