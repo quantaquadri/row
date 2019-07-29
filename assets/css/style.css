@@ -66,11 +66,20 @@ img {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 20px 15px;
+    padding: 12px 15px;
     font-size: 18px;
     line-height: 20px;
 }
 
+@media(max-width: 479px){
+	.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+}
 
 
 /* ================== SECTION 2: Typography ========================= */
@@ -2628,6 +2637,18 @@ a.text-cta {
 }
 
 
+@media (max-width: 419px) {
+	.hero .hero-headline {
+    padding-top: 10px;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+}
+
+
 .hero .hero-bio {
     color: #fff;
     font-family: 'Nunito', sans-serif;
@@ -4186,6 +4207,7 @@ input.w-button {
 .c-guava-500 {
     color: #F79320 !important;
     font-weight: 400;
+    font-size: 14px;
 }
 
 @media (min-width: 1200px){
@@ -4522,7 +4544,7 @@ img {
     border-radius: 5px;
 }
 .bg-whiter {
-    background-color: rgba(255,255,255, 0.85);
+    background-color: rgba(255,255,255, 0.9);
 }
 
 
@@ -4818,7 +4840,19 @@ img.circle {
 @media (max-width: 479px){
 	.feature-9{
 		padding-top: 20px;
+		padding-bottom: 30px;
 	}
+}
+
+@media (max-width: 479px){
+	.feature-12{
+		padding-bottom: 30px !important;
+	}
+}
+
+
+.feature-12{
+	padding-bottom: 60px;
 }
 
 @media (max-width: 479px){
@@ -4826,6 +4860,21 @@ img.circle {
 		display: none;
 	}
 }
+
+
+@media (max-width: 1920px){
+	.feature-11{
+		display: none;
+	}
+}
+
+@media (max-width: 479px){
+	.feature-11{
+		display: block;
+		padding-top: 20px;
+	}
+}
+
 
 
 .order-2 {
