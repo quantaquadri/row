@@ -445,7 +445,7 @@ header .container img.logo {
 
 @media (max-width: 479px){
 .section.logos {
-    padding-top: 20px;
+    padding-top: 40px;
 }}
 
 /*@media (max-width: 479px){
@@ -650,9 +650,9 @@ header .container img.logo {
 
 
 
-.section.logos {
+/*.section.logos {
     padding-top: 0px;
-}
+}*/
 
 .container.centered {
     margin-top: 32px;
