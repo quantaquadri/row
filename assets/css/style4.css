@@ -238,7 +238,7 @@ header .container img.logo {
 
 	/*background-image: url(bgn.png);*/
 	background-size: 1500px;
-	background-color: #fcfcfc;
+	background-color: #fefefe;
 
 }
 
@@ -3729,7 +3729,6 @@ ul.list-bulleted>li::before {
 
 p+p {
     margin-top: 1em;
-    font-size: 14px;
 }
 
 
@@ -4217,10 +4216,6 @@ input.w-button {
 /*========================== HRO =========================*/
 .bg-parsnip-200 {
     background-color: #FFE7BD !important;
-}
-
-.bg-parsnip-2000 {
-    background-color: #EDF9F7 !important;
 }
 
 
@@ -4951,6 +4946,11 @@ img.circle {
 
 /*================== Book Aid =================*/
 
+.field {
+    margin: 0 0 20px;
+    position: relative;
+}
+
 #hero input {
     max-width: 400px;
     font-size: 14px;
@@ -4960,13 +4960,14 @@ img.circle {
     border: 1px solid #E0E0E0;
 }
 
-#dedicated-account-manager .svg-circle-container {
-    bottom: 100%;
+
+#accuracy {
+    background: #F3F5FA;
+    position: relative;
 }
 
-#dedicated-account-manager {
-    background: #fff;
-    position: relative;
+#accuracy .svg-circle-container {
+    bottom: 100%;
 }
 
 .svg-circle-container {
@@ -4978,16 +4979,31 @@ img.circle {
     width: 100%;
 }
 
+
+.svg-circle-container svg {
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+#accuracy .container {
+    padding-top: 50px;
+    padding-bottom: 160px;
+}
+
+
 .columns {
     display: flex;
     margin: 0 -20px;
     padding: 0;
 }
 
-
-.columns .column.one-twelfth {
-    flex: 0 0 8.33%;
-    max-width: 8.33%;
+.columns .column.half {
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .columns .column {
@@ -4999,102 +5015,302 @@ img.circle {
     width: 100%;
 }
 
-.how-it-works-step-number {
-    font-size: 56px;
-    color: #FFE7BD;
-    font-weight: bold;
+
+#home h2 {
+    color: #3C2D89;
+    font-size: 48px;
+    font-weight: 600;
+}
+#accuracy h2 {
+    max-width: 280px;
 }
 
-
-.columns .column.five-twelfths {
-    flex: 0 0 41.67%;
-    max-width: 41.67%;
+#accuracy p {
+    max-width: 448px;
 }
+
+.font-size-medium {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.cta-link {
+    border-bottom: 1px solid #F79320;
+    font-size: 16px;
+    padding-bottom: 6px;
+    padding-top: 10px;
+}
+
 
 .columns .column>*:last-child {
     margin-bottom: 0;
 }
 
-.how-it-works-step img {
-    padding-left: 20px;
-    padding-right: 20px;
+.testimonialz {
+    background: #fff;
+    border: 1px solid #EFF0F3;
+    border-radius: 4px;
+    box-shadow: 0 46px 64px rgba(14,13,18,0.04);
+    color: #656363;
+    margin: 120px 0 0;
+    padding: 40px;
+    max-width: 400px;
 }
 
-.how-it-works-step h2 {
-    color: #F79320;
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 20px;
+
+.testimonialz:before {
+    color: #3C2D89;
+    content: "\201C";
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 45px;
 }
+
+
+.testimonialz footer {
+    font-size: 13px;
+    padding-left: 55px;
+    position: relative;
+}
+
+.testimonialz footer img {
+    border-radius: 50%;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+
+.testimonialz .testimonialz-author-title {
+    font-family: monospace;
+}
+
+
+.testimonialz .testimonialz-author-name {
+    font-weight: bold;
+}
+
+#accuracy-graphic {
+    padding-top: 148px;
+    position: relative;
+}
+
+
+#accuracy-graphic img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+#accuracy-graphic:after {
+    background: #F9FAFC;
+    border-radius: 50%;
+    top: 12%;
+    content: "";
+    display: block;
+    margin-top: 148px;
+    padding-top: 100%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100%;
+}
+
+#accuracy .container {
+    padding-bottom: 160px;
+}
+
+#financial-expert {
+    background: #EDEEF5;
+    position: relative;
+}
+
+#financial-expert .svg-circle-container {
+    bottom: 100%;
+}
+
+#financial-expert-graphic-container {
+    padding-top: 80px;
+}
+
+#financial-expert-graphic {
+    max-width: 448px;
+    position: relative;
+}
+
+.expert-photo-spot {
+    flex: 0 1 64px;
+    margin: 0 14.285% 0 0;
+    position: relative;
+}
+
+.expert-photo-spot:last-child {
+    margin-right: 0;
+}
+
+.expert-photo-inner {
+    padding-top: 100%;
+}
+
+.expert-photo img {
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 50%;
+    box-shadow: 0 16px 32px rgba(14,13,18,0.12);
+}
+
+
+.expert-photo-inner:after {
+    background-position: 0 16px;
+    height: 64px;
+    left: 50%;
+    margin-left: -3px;
+    top: 100%;
+    width: 6px;
+}
+
+
+.expert-photo-inner:before, .expert-photo-inner:after {
+    background: url(dots.png);
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+
+
+.expert-row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+}
+
+
+.expert-photo+.expert-photo .expert-photo-inner:before {
+    display: block;
+}
+
+.expert-photo-inner:before {
+    background-position: 16px 0;
+    display: none;
+    height: 6px;
+    margin-top: -3px;
+    right: 100%;
+    top: 75%;
+    width: 64px;
+}
+
+
+#financial-expert-graphic:after {
+    background: #F3F5FA;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    padding-top: 115%;
+    left: -7%;
+    position: absolute;
+    top: -10%;
+    width: 115%;
+}
+
+
+#financial-expert-contents {
+    margin-left: auto;
+}
+
 
 .max-400 {
     max-width: 408px;
 }
 
-.how-it-works-step p {
-    margin-bottom: 0;
+
+#home-header {
+    color: #3C2D89;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 
-#get-your-report {
-    /*background: #fafafa;*/
+
+
+#for-startups {
+    background: #F3F5FA;
 }
 
-#get-your-report .container {
-    padding-bottom: 160px;
+#for-startups .container {
+    padding-top: 160px;
 }
 
 
-#rovedana-different {
-    background: #fff;
+
+#customerz-logos {
+    line-height: 0;
+    margin-left: auto;
+    max-width: 524px;
     position: relative;
+    text-align: right;
 }
 
-#rovedana-different .svg-circle-container {
-    bottom: 100%;
+
+.customerz {
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    margin: 40px 6% 0 0;
+    padding-top: 27.09%;
+    position: relative;
+    width: 38%;
+    z-index: 1;
 }
 
-.svg-circle-container svg {
-    left: 0;
-    overflow: visible;
+
+.customerz img {
+    left: 50%;
+    max-width: 82%;
     position: absolute;
-    top: 0;
-    width: 100%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
-.svg-circle-container {
-    height: 0;
-    left: 0;
-    overflow: hidden;
-    padding-top: 4.1%;
+.customerz:nth-child(even) {
+    margin-right: 0;
+}
+
+#customerz-logos:after {
+    background: #EDEEF5;
+    border-radius: 50%;
+    bottom: 70px;
+    content: "";
+    display: block;
+    padding-top: 130%;
     position: absolute;
-    width: 100%;
+    right: 40%;
+    transform: translateX(50%);
+    width: 130%;
 }
 
-#rovedana-different h2 {
-    color: #000;
-    margin-bottom: 30px;
-    /*font-size: 4S0px;*/
+
+#why-bookaid-questions {
+    padding: 80px;
+}
+
+#why-bookaid #why-startups-choose-bookaid {
+    color: #3F3C3D;
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-weight: 600;
     text-align: center;
 }
 
-#rovedana-different .container>p {
-    font-size: 16px;
-    text-align: center;
-    margin: 0 auto 80px;
-    max-width: 500px;
+
+#why-bookaid .column {
+    align-self: stretch;
 }
 
-
-.columns .column.one-third {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-}
-
-
-.columns .column>*:last-child {
-    margin-bottom: 0;
-}
 
 .panel {
     background: #fff;
@@ -5106,90 +5322,111 @@ img.circle {
     padding: 40px;
 }
 
+
+.panel svg {
+    display: block;
+    height: 88px;
+    margin: 20px auto 40px;
+}
+
 .panel h3 {
     border-top: 1px solid #E0E0E0;
     padding-top: 20px;
     font-weight: normal;
 }
 
-#pilot-different .panel p {
+#why-bookaid .panel p {
     color: #656363;
 }
-
 .panel>*:last-child {
     margin-bottom: 0;
 }
 
-.container.narrow {
-    max-width: 856px;
+#why-bookaid #why-bookaid-questions {
+    text-align: center;
+}
+
+#why-bookaid #why-bookaid-questions h2 {
+    font-size: 32px;
+    margin: 80px 0 40px;
+}
+
+#why-bookaid .container {
+    padding-top: 160px;
 }
 
 
-#how-it-works-faq h2 {
+#start-bookaid-today {
+    background: #423D71;
+    color: #fff;
+}
+
+
+#start-bookaid-today h2{
+    color: #fff;
     font-size: 48px;
-    line-height: 52px;
-    margin-bottom: 30px;
-}
-
-.how-it-works-faq-description {
-    font-size: 18px;
-    max-width: 500px;
 }
 
 
-.cta-links {
-    color: #999;
-    margin: 40px 0;
-}
-
-.cta-links .cta-link:first-child {
-    margin-left: 0;
-}
-
-.cta-links .cta-link {
-        margin: 0 40px;
-}
-
-.faq-item {
-    margin-bottom: 40px;
-    font-size: 18px;
-}
-
-.faq-item .faq-question {
-    font-weight: bold;
-    margin-bottom: 10px;
+#start-bookaid-today .container {
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 
-#how-it-works-faq hr {
-    margin: 60px 0;
-}
+@media (max-width: 799px){
+.svg-circle-container {
+    display: none;
+}}
 
 
-hr {
-    border: 0 solid #E0E0E0;
-    border-top-width: 1px;
-    margin: 20px 0;
-}
-
-#start-rovedana-today {
-    background: #423D71;
-    color: #fff;
-}
+@media (max-width: 559px){
+.columns {
+    flex-direction: column;
+    margin-bottom: 0;
+}}
 
 
-#start-pilot-today .container{
-    padding-top: 240px;
-}
+@media (max-width: 559px){
+#accuracy-explain, #accuracy-graphic, #financial-expert-explain, #financial-expert-graphic-container {
+    max-width: none;
+    flex: 0 0 auto;
+}}
+
+@media (max-width: 799px){
+#accuracy-explain {
+    flex: 0 0 67%;
+    /*max-width: 67%;*/
+}}
+
+@media (max-width: 559px){
+.columns .column.column {
+    flex: 0 1 auto;
+    max-width: 100%;
+    padding-top: 0;
+}}
+
+@media (max-width: 559px){
+#accuracy-graphic {
+    display: none;
+}}
 
 
-#start-rovedana-today{
-    background: #423D71;
-    color: #fff;
-}
+
+@media (max-width: 559px){
+#financial-expert-graphic-container {
+    display: none;
+}}
+
+@media (max-width: 799px){
+#financial-expert-graphic-container {
+    flex: 0 0 33%;
+    max-width: 33%;
+}}
 
 
-#start-rovedana-today .container {
-    padding-bottom: 240px;
-    padding-top: 240px;
-}
+
+@media (max-width: 559px){
+#why-bookaid #why-startups-choose-bookaid {
+    font-size: 48px;
+}}
