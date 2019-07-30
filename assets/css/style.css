@@ -4220,7 +4220,7 @@ input.w-button {
 }
 
 .bg-parsnip-2000 {
-    background-color: #EDF9F7 !important;
+    background-color: #FFE7BD !important;
 }
 
 
@@ -4958,6 +4958,8 @@ img.circle {
     width: 100%;
     background: #fff;
     border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    height: 55px;
 }
 
 #dedicated-account-manager .svg-circle-container {
@@ -5041,7 +5043,7 @@ img.circle {
 }
 
 #get-your-report .container {
-    padding-bottom: 160px;
+    padding-bottom: 80px;
 }
 
 
@@ -5109,8 +5111,14 @@ img.circle {
 .panel h3 {
     border-top: 1px solid #E0E0E0;
     padding-top: 20px;
-    font-weight: normal;
+    font-weight: 600;
+    font-size: 16px;
 }
+
+.panel p {
+    font-size: 14px;
+}
+
 
 #pilot-different .panel p {
     color: #656363;
@@ -5120,26 +5128,21 @@ img.circle {
     margin-bottom: 0;
 }
 
-.container.narrow {
-    max-width: 856px;
-}
-
-
 #how-it-works-faq h2 {
-    font-size: 48px;
+    /*font-size: 48px;*/
     line-height: 52px;
     margin-bottom: 30px;
 }
 
 .how-it-works-faq-description {
-    font-size: 18px;
+    font-size: 16px;
     max-width: 500px;
 }
 
 
 .cta-links {
     color: #999;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .cta-links .cta-link:first-child {
@@ -5157,12 +5160,17 @@ img.circle {
 
 .faq-item .faq-question {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
+.faq-item .faq-answer {
+    
+    font-size: 16px;
+}
 
 #how-it-works-faq hr {
-    margin: 60px 0;
+    margin: 40px 0;
 }
 
 
@@ -5172,10 +5180,10 @@ hr {
     margin: 20px 0;
 }
 
-#start-rovedana-today {
+/*#start-rovedana-today {
     background: #423D71;
     color: #fff;
-}
+}*/
 
 
 #start-pilot-today .container{
@@ -5184,12 +5192,26 @@ hr {
 
 
 #start-rovedana-today{
-    background: #423D71;
+    background: #6262A0;
     color: #fff;
 }
 
 
 #start-rovedana-today .container {
-    padding-bottom: 240px;
-    padding-top: 240px;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
+
+.heading-9-body {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/*.container.narrow {
+    max-width: 856px;
+}*/
+
